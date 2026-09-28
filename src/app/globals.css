@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #F3EFE3; --surface: #FAF8F1; --surface-2: #E9E4D2; --line: #CFC8B0;
+  --ink: #0A1F15; --mute: #5B6E62; --primary: #0B6B43; --deep: #064A2E;
+  --gold: #A67C1E; --alert: #B5402B;
+}
+[data-theme='dark'] {
+  --bg: #050F0B; --surface: #0A1B14; --surface-2: #10271D; --line: #1E3A2C;
+  --ink: #EDF3EC; --mute: #8BA598; --primary: #2EE59D; --deep: #0E7A4F;
+  --gold: #D4AF5A; --alert: #E0604A;
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+  transition: background-color .3s, color .3s;
+}
+body::before {
+  content: ''; position: fixed; inset: 0; pointer-events: none; opacity: .05; z-index: 0;
+  background: repeating-linear-gradient(90deg, var(--primary) 0 40px, transparent 40px 80px);
+}
+body > * { position: relative; z-index: 1; }
+:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+
+::view-transition-old(root), ::view-transition-new(root) { animation: none; mix-blend-mode: normal; }
+.tg-ico { transition: transform .5s; }
+[data-theme='dark'] .tg-ico { transform: rotate(180deg); }
+
+.ficha { position: relative; border: 1px solid var(--line); background: var(--surface); }
+.ficha::before, .ficha::after { content: ''; position: absolute; width: 12px; height: 12px; border: 2px solid var(--primary); }
+.ficha::before { top: -1px; left: -1px; border-right: 0; border-bottom: 0; }
+.ficha::after { bottom: -1px; right: -1px; border-left: 0; border-top: 0; }
+
+.rule2 { position: relative; border-bottom: 1px solid var(--ink); }
+.rule2::after { content: ''; position: absolute; left: 0; right: 0; bottom: -6px; border-bottom: 3px solid var(--ink); }
+
+.trow { transition: background .15s, box-shadow .15s; outline: none; }
+.trow:hover, .trow:focus-visible { background: var(--surface-2); box-shadow: inset 4px 0 0 var(--primary); }
+.sp polyline { fill: none; stroke: var(--primary); stroke-width: 1.6; stroke-dasharray: 200; stroke-dashoffset: 200; animation: draw 1.2s .2s forwards; }
+@keyframes draw { to { stroke-dashoffset: 0; } }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+  .sp polyline { stroke-dashoffset: 0; }
+}
