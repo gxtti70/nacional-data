@@ -6,11 +6,15 @@
   --bg: #F3EFE3; --surface: #FAF8F1; --surface-2: #E9E4D2; --line: #CFC8B0;
   --ink: #0A1F15; --mute: #5B6E62; --primary: #0B6B43; --deep: #064A2E;
   --gold: #A67C1E; --alert: #B5402B;
+  --tip-bg: #0A1F15; --tip-ink: #F3EFE3; --tip-mute: #B7C7BC;
+  --tip-in: #2EE59D; --tip-out: #F08A6F;
 }
 [data-theme='dark'] {
   --bg: #050F0B; --surface: #0A1B14; --surface-2: #10271D; --line: #1E3A2C;
   --ink: #EDF3EC; --mute: #8BA598; --primary: #2EE59D; --deep: #0E7A4F;
   --gold: #D4AF5A; --alert: #E0604A;
+  --tip-bg: #EDF3EC; --tip-ink: #0A1F15; --tip-mute: #3F5A4B;
+  --tip-in: #0B6B43; --tip-out: #B5402B;
 }
 
 body {

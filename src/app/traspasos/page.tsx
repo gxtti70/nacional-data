@@ -1,6 +1,7 @@
 import SectionHeader from '@/components/ui/SectionHeader'
 import SectionIntro from '@/components/ui/SectionIntro'
 import { arrivals, departures } from '@/data/transfers'
+import TransferCard from '@/features/transfers/TransferCard'
 
 export default function TraspasosPage() {
   return (
@@ -12,28 +13,16 @@ export default function TraspasosPage() {
           <h2 className="mb-6 font-display text-2xl font-bold">Altas recientes</h2>
           <div className="space-y-4">
             {arrivals.map((a) => (
-              <div key={a.player} className="ficha p-5 flex items-center justify-between">
-                <div>
-                  <h3 className="font-display text-lg font-bold">{a.player}</h3>
-                  <p className="text-sm text-mute">Origen: {a.club}</p>
-                </div>
-                <span className="border border-primary px-2.5 py-1 font-num text-xs font-extrabold text-primary">{a.window}</span>
-              </div>
-            ))}
+  <TransferCard key={`${a.player}-${a.window}-${a.type}`} t={a} dir="in" />
+))}
           </div>
         </div>
         <div>
           <h2 className="mb-6 font-display text-2xl font-bold">Bajas recientes</h2>
           <div className="space-y-4">
             {departures.map((d) => (
-              <div key={d.player} className="ficha p-5 flex items-center justify-between">
-                <div>
-                  <h3 className="font-display text-lg font-bold">{d.player}</h3>
-                  <p className="text-sm text-mute">Destino: {d.club}</p>
-                </div>
-                <span className="border border-line px-2.5 py-1 font-num text-xs font-extrabold text-mute">{d.window}</span>
-              </div>
-            ))}
+  <TransferCard key={`${d.player}-${d.window}-${d.type}`} t={d} dir="out" />
+))}
           </div>
         </div>
       </div>

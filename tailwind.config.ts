@@ -15,6 +15,11 @@ const config: Config = {
         deep: 'var(--deep)',
         gold: 'var(--gold)',
         alert: 'var(--alert)',
+        tip: 'var(--tip-bg)',
+        tipink: 'var(--tip-ink)',
+        tipmute: 'var(--tip-mute)',
+        tipin: 'var(--tip-in)',
+        tipout: 'var(--tip-out)',
       },
       fontFamily: {
         display: ['var(--font-display)', 'Georgia', 'serif'],
