@@ -11,6 +11,11 @@ const sans = Instrument_Sans({ subsets: ['latin'], variable: '--font-sans', disp
 export const metadata: Metadata = {
   title: 'Atlético Nacional · Archivo de datos',
   description: 'Historia, plantilla, cifras y leyendas del Atlético Nacional.',
+  icons: {
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png', // ícono al guardar el sitio en el móvil
+  },
 }
 
 const themeScript = `try{var t=localStorage.getItem('n-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme='dark'}`

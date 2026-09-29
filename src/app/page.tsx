@@ -7,11 +7,25 @@ import { currentSeason } from '@/data/seasons'
 import { players } from '@/data/players'
 import { gallery } from '@/data/gallery'
 import Photo from '@/components/ui/Photo'
+import ClubAge from '@/features/home/ClubAge'
+
+export const revalidate = 86400 // recalcula la edad al menos una vez al día
+
+const FOUNDED = 1947
 
 export default function Home() {
   return (
     <div>
       <div className="mb-12 border-b border-line pb-8">
+        <ClubAge
+  founded={FOUNDED}
+  current={new Date().getFullYear()}
+  milestones={[
+    { year: 1947, label: 'Fundación' },
+    { year: 1989, label: 'Libertadores', gold: true },
+    { year: 2016, label: 'Libertadores', gold: true },
+  ]}
+/>
         <span className="mb-3 inline-block border border-primary px-3 py-1 font-num text-sm tracking-wider text-primary">ARCHIVO OFICIAL DE DATOS</span>
         <h1 className="font-display text-5xl font-bold leading-tight sm:text-7xl">
           Atlético <span className="text-primary">Nacional</span>
