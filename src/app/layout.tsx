@@ -21,7 +21,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head><script dangerouslySetInnerHTML={{ __html: themeScript }} /></head>
       <body className="font-sans text-base leading-relaxed">
         <TopNav />
-        <main className="mx-auto w-full max-w-6xl px-6 py-12">{children}</main>
+        <main className="relative z-10 mx-auto w-full max-w-6xl px-6 py-12">{children}</main>
         <Footer />
       </body>
     </html>

@@ -38,9 +38,4 @@ export const departures: Transfer[] = [
   { player: 'Andrés Salazar', club: 'Riga FC', window: 'Feb 2026', type: 'Fichaje' },
   { player: 'Jayder Asprilla', club: 'Sheriff', window: 'Feb 2026', type: 'Fichaje', fee: '€0,6 M' },
   { player: 'Marino Hinestroza', club: 'Vasco da Gama', window: 'Ene 2026', type: 'Fichaje', fee: '€5,2 M' },
-  { player: 'Luis Marquinez', club: 'Deportes Tolima', window: 'Ene 2026', type: 'Cesión' },
-  { player: 'Facundo Batista', club: 'Peñarol', window: 'Ene 2026', type: 'Fichaje', fee: '€0,4 M' },
-  { player: 'Kilian Toscano', club: 'Santa Fe', window: 'Ene 2026', type: 'Cesión' },
-  { player: 'Billy Arce', club: 'Sin club', window: 'Ene 2026', type: 'Libre' },
-  { player: 'Yair Mena', club: 'Ferroviário', window: 'Ene 2026', type: 'Fichaje' },
 ]
