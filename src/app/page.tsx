@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import SectionHeader from '@/components/ui/SectionHeader'
 import StatFigure from '@/components/ui/StatFigure'
-import SampleNote from '@/components/ui/SampleNote'
+import SectionIntro from '@/components/ui/SectionIntro'
 import { honours } from '@/data/history'
 import { currentSeason } from '@/data/seasons'
 import { players } from '@/data/players'
@@ -29,7 +29,7 @@ export default function Home() {
 
       <div className="mb-16">
         <SectionHeader n="I" title="Palmarés destacado" />
-        <SampleNote />
+        <SectionIntro>Títulos oficiales del club en competencias nacionales e internacionales.</SectionIntro>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
           {honours.map((h) => (
             <div key={h.name} className="ficha p-6">

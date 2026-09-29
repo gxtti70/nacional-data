@@ -11,6 +11,7 @@ export const PlayerSchema = z.object({
   birthDate: z.string(),
   nationality: z.string(),
   photo: z.string().optional(),
+  credit: z.string().optional(),
 })
 export type Player = z.infer<typeof PlayerSchema>
 

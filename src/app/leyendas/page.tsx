@@ -1,5 +1,5 @@
 import SectionHeader from '@/components/ui/SectionHeader'
-import SampleNote from '@/components/ui/SampleNote'
+import SectionIntro from '@/components/ui/SectionIntro'
 import { legends } from '@/data/legends'
 import Photo from '@/components/ui/Photo'
 
@@ -7,7 +7,7 @@ export default function LeyendasPage() {
   return (
     <div>
       <SectionHeader n="VII" title="Galería de leyendas" />
-      <SampleNote />
+      <SectionIntro>Las figuras que escribieron la historia verdolaga.</SectionIntro>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
         {legends.map((l) => (
           <div key={l.slug} className="ficha p-6 flex items-center gap-4">

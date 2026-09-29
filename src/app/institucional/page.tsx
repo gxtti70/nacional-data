@@ -1,5 +1,5 @@
 import SectionHeader from '@/components/ui/SectionHeader'
-import SampleNote from '@/components/ui/SampleNote'
+import SectionIntro from '@/components/ui/SectionIntro'
 import { orgTree } from '@/data/institution'
 import { staff } from '@/data/staff'
 
@@ -7,7 +7,7 @@ export default function InstitucionalPage() {
   return (
     <div>
       <SectionHeader n="III" title="Institucional y cuerpo técnico" />
-      <SampleNote />
+      <SectionIntro>Directivos y cuerpo técnico responsables del club en la actualidad.</SectionIntro>
       <div className="mb-16">
         <h2 className="mb-6 font-display text-2xl font-bold">Estructura directiva</h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">

@@ -1,12 +1,12 @@
 import SectionHeader from '@/components/ui/SectionHeader'
-import SampleNote from '@/components/ui/SampleNote'
+import SectionIntro from '@/components/ui/SectionIntro'
 import { arrivals, departures } from '@/data/transfers'
 
 export default function TraspasosPage() {
   return (
     <div>
       <SectionHeader n="VI" title="Registro de traspasos" />
-      <SampleNote />
+     <SectionIntro>Movimientos de jugadores en los últimos mercados de fichajes.</SectionIntro>
       <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
         <div>
           <h2 className="mb-6 font-display text-2xl font-bold">Altas recientes</h2>

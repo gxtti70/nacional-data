@@ -13,6 +13,7 @@ const COLS: Column[] = [
   { key: 'goals', header: 'Goles', kind: 'bar' },
   { key: 'assists', header: 'Asist.', kind: 'num' },
   { key: 'trend', header: 'Goles por temporada', kind: 'spark' },
+  { key: 'href', header: '', kind: 'action' },
 ]
 const POS: ('ALL' | Position)[] = ['ALL', 'POR', 'DEF', 'LI', 'LD', 'MCD', 'MED', 'MCO', 'EXD', 'EXI', 'DEL']
 

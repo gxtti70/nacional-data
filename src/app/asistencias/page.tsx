@@ -1,12 +1,12 @@
 import SectionHeader from '@/components/ui/SectionHeader'
-import SampleNote from '@/components/ui/SampleNote'
+import SectionIntro from '@/components/ui/SectionIntro'
 import { attendance, stadiumCapacity } from '@/data/attendance'
 
 export default function AsistenciasPage() {
   return (
     <div>
       <SectionHeader n="IV" title="Asistencia al estadio" />
-      <SampleNote>Promedio de espectadores por temporada en miles.</SampleNote>
+      <SectionIntro>Promedio de espectadores por temporada, en miles, en el Estadio Atanasio Girardot.</SectionIntro>
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
         {attendance.map((item) => (
           <div key={item.season} className="ficha p-6">

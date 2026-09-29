@@ -1,5 +1,5 @@
 import SectionHeader from '@/components/ui/SectionHeader'
-import SampleNote from '@/components/ui/SampleNote'
+import SectionIntro from '@/components/ui/SectionIntro'
 import Timeline from '@/features/history/Timeline'
 import { events, honours } from '@/data/history'
 
@@ -7,7 +7,7 @@ export default function HistoriaPage() {
   return (
     <div>
       <SectionHeader n="I" title="Historia y palmarés" />
-      <SampleNote />
+      <SectionIntro>Los hitos y títulos que han marcado la historia del club desde 1947.</SectionIntro>
       <div className="mb-16">
         <h2 className="mb-8 font-display text-2xl font-bold">Hitos institucionales</h2>
         <Timeline events={events} />

@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from 'react'
 import Photo from '@/components/ui/Photo'
 import Sparkline from '@/components/charts/Sparkline'
 
-export type Column = { key: string; header: string; kind?: 'text' | 'num' | 'bar' | 'spark' | 'pos' | 'player' }
+export type Column = { key: string; header: string; kind?: 'text' | 'num' | 'bar' | 'spark' | 'pos' | 'player' | 'action' }
 type Row = Record<string, any>
 
 export default function DataTable({ columns, rows, defaultSort, rowKey = 'slug' }: {
@@ -52,6 +52,15 @@ export default function DataTable({ columns, rows, defaultSort, rowKey = 'slug' 
         )
         return r.href ? <Link href={r.href} className="hover:text-primary">{inner}</Link> : inner
       }
+      case 'action':
+  return r[c.key] ? (
+    <Link
+      href={r[c.key]}
+      className="whitespace-nowrap border border-primary px-2.5 py-1 text-xs font-semibold text-primary hover:bg-primary hover:text-bg"
+    >
+      Ver perfil →
+    </Link>
+  ) : null
       default: return r[c.key]
     }
   }
@@ -65,7 +74,7 @@ export default function DataTable({ columns, rows, defaultSort, rowKey = 'slug' 
           <tr className="bg-surface2">
             <th className="border-b border-ink px-3.5 py-2.5 text-left font-semibold">#</th>
             {columns.map((c) => {
-              const sortable = c.kind !== 'spark'
+             const sortable = c.kind !== 'spark' && c.kind !== 'action'
               return (
                 <th
                   key={c.key}
