@@ -8,6 +8,9 @@ import { players } from '@/data/players'
 import { gallery } from '@/data/gallery'
 import Photo from '@/components/ui/Photo'
 import ClubAge from '@/features/home/ClubAge'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata('Archivo de datos', 'Historia, plantilla, estadísticas, partidos y palmarés del Atlético Nacional.')
 
 export const revalidate = 86400 // recalcula la edad al menos una vez al día
 

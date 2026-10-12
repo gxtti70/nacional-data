@@ -2,6 +2,9 @@ import SectionHeader from '@/components/ui/SectionHeader'
 import SectionIntro from '@/components/ui/SectionIntro'
 import { arrivals, departures } from '@/data/transfers'
 import TransferCard from '@/features/transfers/TransferCard'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata('Traspasos', 'Altas y bajas recientes en la plantilla del Atlético Nacional.')
 
 export default function TraspasosPage() {
   return (

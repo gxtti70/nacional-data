@@ -2,6 +2,9 @@ import SectionHeader from '@/components/ui/SectionHeader'
 import SectionIntro from '@/components/ui/SectionIntro'
 import Timeline from '@/features/history/Timeline'
 import { events, honours } from '@/data/history'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata('Historia y palmarés', 'Hitos históricos y títulos oficiales del Atlético Nacional desde 1947.')
 
 export default function HistoriaPage() {
   return (

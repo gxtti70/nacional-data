@@ -1,12 +1,14 @@
 import { players, playerPhoto } from './players'
 import { currentSeason, seasons } from './seasons'
 
+// Totales publicados por ESPN al retiro de Duque (2024) y por Atlético Nacional (2022).
+// Las fuentes difieren: el corte oficial de 2022 reportaba 206/131/90 para los tres primeros.
 export const allTimeScorers = [
-  { slug: 'historico-a', name: 'Víctor Hugo Aristizábal', position: 'DEL', goals: 206, trend: [8, 15, 22, 30, 27, 35, 40, 33] },
-  { slug: 'historico-b', name: 'John Jairo Tréllez', position: 'DEL', goals: 131, trend: [5, 12, 20, 18, 25, 22, 30, 26] },
-  { slug: 'historico-c', name: 'Jefferson Duque', position: 'DEL', goals: 121, trend: [3, 8, 14, 19, 22, 20, 25, 20] },
-  { slug: 'historico-d', name: 'Gustavo Santa', position: 'DEL', goals: 102, trend: [10, 18, 16, 22, 15, 14, 12, 10] },
-  { slug: 'historico-e', name: 'Humberto "Turrón" Álvarez', position: 'DEL', goals: 96, trend: [4, 9, 12, 15, 18, 14, 13, 11] },
+  { slug: 'historico-a', name: 'Víctor Hugo Aristizábal', position: 'DEL', goals: 208, sourceLabel: 'ESPN · 2024', source: 'https://www.espn.com.co/futbol/colombia/nota/_/id/13857738/los-numeros-de-jefferson-duque-en-atletico-nacional' },
+  { slug: 'historico-b', name: 'John Jairo Tréllez', position: 'DEL', goals: 132, sourceLabel: 'ESPN · 2024', source: 'https://www.espn.com.co/futbol/colombia/nota/_/id/13857738/los-numeros-de-jefferson-duque-en-atletico-nacional' },
+  { slug: 'historico-c', name: 'Jefferson Duque', position: 'DEL', goals: 122, sourceLabel: 'ESPN · 2024', source: 'https://www.espn.com.co/futbol/colombia/nota/_/id/13857738/los-numeros-de-jefferson-duque-en-atletico-nacional' },
+  { slug: 'historico-d', name: 'Gustavo Santa Pulgarín', position: 'DEL', goals: 99, sourceLabel: 'Atlético Nacional · 2022', source: 'https://www.atlnacional.com.co/wp-content/uploads/2022/05/140-a-la-cancha-vs-CALDAS.pdf' },
+  { slug: 'historico-e', name: 'Luis Humberto Álvarez', position: 'DEL', goals: 99, sourceLabel: 'Atlético Nacional · 2022', source: 'https://www.atlnacional.com.co/wp-content/uploads/2022/05/140-a-la-cancha-vs-CALDAS.pdf' },
 ]
 
 export const currentScorers = players

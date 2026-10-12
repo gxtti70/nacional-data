@@ -28,10 +28,12 @@ export type Season = z.infer<typeof SeasonSchema>
 
 export const GalleryItemSchema = z.object({
   id: z.string(),
-  year: z.number(),
+  year: z.number().optional(),
   title: z.string(),
   caption: z.string(),
-  src: z.string(),
+  src: z.string().optional(),
   credit: z.string(),
+  sourceUrl: z.string().optional(),
+  licenseUrl: z.string().optional(),
 })
 export type GalleryItem = z.infer<typeof GalleryItemSchema>

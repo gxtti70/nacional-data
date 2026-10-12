@@ -2,6 +2,9 @@ import SectionHeader from '@/components/ui/SectionHeader'
 import SectionIntro from '@/components/ui/SectionIntro'
 import { orgTree } from '@/data/institution'
 import { staff } from '@/data/staff'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata('Institucional', 'Estructura directiva y cuerpo técnico del Atlético Nacional.')
 
 export default function InstitucionalPage() {
   return (

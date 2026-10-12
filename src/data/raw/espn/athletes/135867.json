@@ -1,0 +1,2793 @@
+{
+  "athlete": {
+    "id": "135867",
+    "uid": "s:600~a:135867",
+    "guid": "23d19878-4eb5-2694-661c-5a2b11905afb",
+    "type": "soccer",
+    "firstName": "Milton",
+    "lastName": "Casco",
+    "displayName": "Milton Casco",
+    "fullName": "Milton Casco",
+    "jersey": "20",
+    "links": [
+      {
+        "language": "en",
+        "rel": [
+          "playercard",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/_/id/135867/milton-casco",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "stats",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/stats/_/id/135867/milton-casco",
+        "text": "Stats",
+        "shortText": "Stats",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "stats",
+          "sportscenter",
+          "app",
+          "athlete"
+        ],
+        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:135867&section=stats",
+        "text": "Stats",
+        "shortText": "Stats",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "splits",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/splits/_/id/135867/milton-casco",
+        "text": "Splits",
+        "shortText": "Splits",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "gamelog",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/matches/_/id/135867/milton-casco",
+        "text": "Matches",
+        "shortText": "Matches",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "gamelog",
+          "sportscenter",
+          "app",
+          "athlete"
+        ],
+        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:135867&section=gamelog",
+        "text": "Matches",
+        "shortText": "Matches",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "news",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/news/_/id/135867/milton-casco",
+        "text": "News",
+        "shortText": "News",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "news",
+          "sportscenter",
+          "app",
+          "athlete"
+        ],
+        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:135867&section=news",
+        "text": "News",
+        "shortText": "News",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "bio",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/bio/_/id/135867/milton-casco",
+        "text": "Bio",
+        "shortText": "Bio",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "bio",
+          "sportscenter",
+          "app",
+          "athlete"
+        ],
+        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:135867&section=bio",
+        "text": "Bio",
+        "shortText": "Bio",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "overview",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/_/id/135867/milton-casco",
+        "text": "Overview",
+        "shortText": "Overview",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "overview",
+          "sportscenter",
+          "app",
+          "athlete"
+        ],
+        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:135867",
+        "text": "Overview",
+        "shortText": "Overview",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "transfers",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/transfers/_/id/135867/milton-casco",
+        "text": "Transfers",
+        "shortText": "Transfers",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "transfers",
+          "mobile",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/transfers/_/id/135867/milton-casco",
+        "text": "Transfers",
+        "shortText": "Transfers",
+        "isExternal": false,
+        "isPremium": false
+      }
+    ],
+    "position": {
+      "id": "2",
+      "name": "Defender",
+      "displayName": "Defender",
+      "abbreviation": "D",
+      "leaf": false,
+      "slug": "defender"
+    },
+    "team": {
+      "id": "5264",
+      "uid": "s:600~t:5264",
+      "guid": "32c343a2-f70d-c6ef-cc38-73b369b8ee5e",
+      "slug": "col.atletico_nacional",
+      "location": "Atlético Nacional",
+      "name": "Atlético Nacional",
+      "abbreviation": "NAL",
+      "displayName": "Atlético Nacional",
+      "shortDisplayName": "Atl. Nacional",
+      "color": "06933c",
+      "alternateColor": "000000",
+      "isActive": true,
+      "isAllStar": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
+          "width": 500,
+          "height": 500,
+          "rel": [
+            "full",
+            "default"
+          ]
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/5264.png",
+          "width": 500,
+          "height": 500,
+          "rel": [
+            "full",
+            "dark"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "clubhouse",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/football/club/_/id/5264/atletico-nacional",
+          "text": "Clubhouse",
+          "shortText": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "stats",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/stats/_/id/5264/atletico-nacional",
+          "text": "Stats",
+          "shortText": "Stats",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "stats",
+            "sportscenter",
+            "app",
+            "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:5264&section=stats",
+          "text": "Stats",
+          "shortText": "Stats",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "schedule",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/fixtures/_/id/5264/atletico-nacional",
+          "text": "Fixtures",
+          "shortText": "Fixtures",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:5264&section=scores",
+          "text": "Fixtures",
+          "shortText": "Fixtures",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "results",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/results/_/id/5264/atletico-nacional",
+          "text": "Results",
+          "shortText": "Results",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "results",
+            "sportscenter",
+            "app",
+            "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:5264&section=scores",
+          "text": "Results",
+          "shortText": "Results",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "standings",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/soccer/standings/_/league/col.1",
+          "text": "Standings",
+          "shortText": "Standings",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:5264&section=standings",
+          "text": "Standings",
+          "shortText": "Standings",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "squad",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/squad/_/id/5264/atletico-nacional",
+          "text": "Squad",
+          "shortText": "Squad",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "squad",
+            "sportscenter",
+            "app",
+            "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:5264&section=squad",
+          "text": "Squad",
+          "shortText": "Squad",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "groups": {
+        "uid": "s:600~l:650~g:1",
+        "id": "1",
+        "name": "Clausura",
+        "abbreviation": "Clausura",
+        "season": {},
+        "standings": {}
+      },
+      "venue": {
+        "id": "10593",
+        "fullName": "Atanasio Girardot",
+        "shortName": "Atanasio Girardot",
+        "address": {
+          "city": "Medellin",
+          "country": "Colombia"
+        }
+      },
+      "record": {},
+      "defaultLeague": {},
+      "isNational": false,
+      "athletes": {},
+      "franchise": {}
+    },
+    "active": true,
+    "status": {
+      "id": "1",
+      "name": "Active",
+      "type": "active",
+      "abbreviation": "Active"
+    },
+    "statsSummary": {
+      "displayName": "2026 Colombian Primera A Stats",
+      "statistics": [
+        {
+          "name": "starts-subIns",
+          "type": "START (SUB)",
+          "displayName": "Starts-Substitute Appearances",
+          "shortDisplayName": "STRT-SUBIN",
+          "description": "The number of starts a player has made in matches.-The number of times a player has come on a sub in a match.",
+          "abbreviation": "START (SUB)",
+          "value": 25,
+          "displayValue": "25 (1)"
+        },
+        {
+          "name": "totalGoals",
+          "displayName": "Total Goals",
+          "shortDisplayName": "G",
+          "description": "The number of goals scored against the opposing team.",
+          "abbreviation": "G",
+          "value": 2,
+          "displayValue": "2"
+        },
+        {
+          "name": "goalAssists",
+          "displayName": "Assists",
+          "shortDisplayName": "A",
+          "description": "The number of assists.",
+          "abbreviation": "A",
+          "value": 2,
+          "displayValue": "2"
+        },
+        {
+          "name": "totalTackles",
+          "displayName": "Tackles",
+          "shortDisplayName": "TACKL",
+          "description": "The number of tackles attempted.",
+          "abbreviation": "TOT",
+          "value": 37,
+          "displayValue": "37"
+        }
+      ]
+    },
+    "displayHeight": "5' 7\"",
+    "displayWeight": "152 lbs",
+    "displayDOB": "11/4/1988",
+    "age": 38,
+    "gender": "MALE",
+    "displayJersey": "#20",
+    "citizenship": "Argentina",
+    "citizenshipCountry": {
+      "alternateId": "1",
+      "abbreviation": "ARG"
+    },
+    "flag": {
+      "href": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "alt": "Argentina",
+      "rel": [
+        "country-flag"
+      ]
+    }
+  },
+  "season": {
+    "year": 2026,
+    "startDate": "2026-01-01T05:00:00.000+00:00",
+    "endDate": "2027-01-01T04:59:00.000+00:00",
+    "type": {
+      "id": "5",
+      "type": 13938,
+      "name": "Clausura",
+      "abbreviation": "2026 Colombian Clausura",
+      "slug": "clausura",
+      "startDate": "2026-06-09T04:00:00.000+00:00",
+      "endDate": "2026-11-10T04:59:00.000+00:00",
+      "hasGroups": false,
+      "hasStandings": true,
+      "hasLegs": false
+    },
+    "types": {
+      "count": 6,
+      "pageIndex": 1,
+      "pageSize": 6,
+      "pageCount": 1,
+      "items": [
+        {
+          "id": "1",
+          "type": 13942,
+          "name": "Apertura",
+          "abbreviation": "2026 Colombian Apertura",
+          "slug": "apertura",
+          "startDate": "2026-01-01T05:00:00.000+00:00",
+          "endDate": "2026-05-27T03:59:00.000+00:00",
+          "hasGroups": false,
+          "hasStandings": true,
+          "hasLegs": false
+        },
+        {
+          "id": "2",
+          "type": 13941,
+          "name": "Apertura - Quarterfinals",
+          "abbreviation": "Playoffs - Quarterfinals",
+          "slug": "apertura---quarterfinals",
+          "startDate": "2026-05-05T04:00:00.000+00:00",
+          "endDate": "2026-05-15T03:59:00.000+00:00",
+          "hasGroups": false,
+          "hasStandings": false,
+          "hasLegs": true
+        },
+        {
+          "id": "3",
+          "type": 13940,
+          "name": "Apertura - Semifinals",
+          "abbreviation": "Playoffs - Semifinals",
+          "slug": "apertura---semifinals",
+          "startDate": "2026-05-15T04:00:00.000+00:00",
+          "endDate": "2026-05-25T03:59:00.000+00:00",
+          "hasGroups": false,
+          "hasStandings": false,
+          "hasLegs": true
+        },
+        {
+          "id": "4",
+          "type": 13939,
+          "name": "Apertura - Finals",
+          "abbreviation": "Playoffs - Finals",
+          "slug": "apertura---finals",
+          "startDate": "2026-05-25T04:00:00.000+00:00",
+          "endDate": "2026-06-09T03:59:00.000+00:00",
+          "hasGroups": false,
+          "hasStandings": false,
+          "hasLegs": true
+        },
+        {
+          "id": "5",
+          "type": 13938,
+          "name": "Clausura",
+          "abbreviation": "2026 Colombian Clausura",
+          "slug": "clausura",
+          "startDate": "2026-06-09T04:00:00.000+00:00",
+          "endDate": "2026-11-10T04:59:00.000+00:00",
+          "hasGroups": false,
+          "hasStandings": true,
+          "hasLegs": false
+        },
+        {
+          "id": "6",
+          "type": 13937,
+          "name": "Playoffs - Finals",
+          "abbreviation": "Finals",
+          "slug": "playoffs---finals",
+          "startDate": "2026-11-14T05:00:00.000+00:00",
+          "endDate": "2027-01-01T04:59:00.000+00:00",
+          "hasGroups": false,
+          "hasStandings": false,
+          "hasLegs": true
+        }
+      ]
+    },
+    "displayName": "2026 Liga BetPlay",
+    "shortDisplayName": "2026 Liga BetPlay",
+    "abbreviation": "2026"
+  },
+  "league": {
+    "id": "650",
+    "uid": "s:600~l:650",
+    "name": "Colombian Primera A",
+    "abbreviation": "Colombian Primera A",
+    "slug": "col.1",
+    "logos": [
+      {
+        "href": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
+        "width": 500,
+        "height": 500,
+        "rel": [
+          "full",
+          "default"
+        ]
+      },
+      {
+        "href": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/1543.png",
+        "width": 500,
+        "height": 500,
+        "rel": [
+          "full",
+          "dark"
+        ]
+      }
+    ],
+    "midsizeName": "COL.1",
+    "shortName": "Colombian Primera A"
+  },
+  "playerSwitcher": {
+    "team": {
+      "id": "5264",
+      "uid": "s:600~t:5264",
+      "slug": "col.atletico_nacional",
+      "location": "Atlético Nacional",
+      "alternateLocation": "Atlético Nacional",
+      "name": "Atlético Nacional",
+      "abbreviation": "NAL",
+      "displayName": "Atlético Nacional",
+      "shortDisplayName": "Atl. Nacional",
+      "color": "06933c",
+      "alternateColor": "000000",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "clubhouse",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/football/club/_/id/5264/atletico-nacional",
+          "text": "Clubhouse",
+          "shortText": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ]
+    },
+    "athletes": [
+      {
+        "id": "133628",
+        "uid": "s:600~a:133628",
+        "guid": "4094d8f2-528d-3c48-8b9b-0fc1efba37dc",
+        "displayName": "William Tesillo",
+        "jersey": "16",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/133628/william-tesillo",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/133628/william-tesillo",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:133628&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/133628/william-tesillo",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/133628/william-tesillo",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:133628&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/133628/william-tesillo",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:133628&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/133628/william-tesillo",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:133628&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/133628/william-tesillo",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:133628",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/133628/william-tesillo",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/133628/william-tesillo",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "position": {
+          "id": "2",
+          "name": "Defender",
+          "displayName": "Defender",
+          "abbreviation": "D",
+          "leaf": false,
+          "slug": "defender"
+        },
+        "displayJersey": "#16"
+      },
+      {
+        "id": "135867",
+        "uid": "s:600~a:135867",
+        "guid": "23d19878-4eb5-2694-661c-5a2b11905afb",
+        "displayName": "Milton Casco",
+        "jersey": "20",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/135867/milton-casco",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/135867/milton-casco",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:135867&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/135867/milton-casco",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/135867/milton-casco",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:135867&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/135867/milton-casco",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:135867&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/135867/milton-casco",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:135867&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/135867/milton-casco",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:135867",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/135867/milton-casco",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/135867/milton-casco",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "position": {
+          "id": "2",
+          "name": "Defender",
+          "displayName": "Defender",
+          "abbreviation": "D",
+          "leaf": false,
+          "slug": "defender"
+        },
+        "displayJersey": "#20"
+      },
+      {
+        "id": "182014",
+        "uid": "s:600~a:182014",
+        "guid": "c62554c7-208f-1f78-129c-040333e57a42",
+        "displayName": "Andrés Reyes",
+        "jersey": "15",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/182014/andres-reyes",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/182014/andres-reyes",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:182014&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/182014/andres-reyes",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/182014/andres-reyes",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:182014&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/182014/andres-reyes",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:182014&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/182014/andres-reyes",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:182014&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/182014/andres-reyes",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:182014",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/182014/andres-reyes",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/182014/andres-reyes",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/soccer/players/full/182014.png",
+          "alt": "Andrés Reyes"
+        },
+        "position": {
+          "id": "2",
+          "name": "Defender",
+          "displayName": "Defender",
+          "abbreviation": "D",
+          "leaf": false,
+          "slug": "defender"
+        },
+        "displayJersey": "#15"
+      },
+      {
+        "id": "252488",
+        "uid": "s:600~a:252488",
+        "guid": "23fa0ff0-7e39-dfdb-0987-c4531715496e",
+        "displayName": "Andres Román",
+        "jersey": "6",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/252488/andres-roman",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/252488/andres-roman",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:252488&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/252488/andres-roman",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/252488/andres-roman",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:252488&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/252488/andres-roman",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:252488&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/252488/andres-roman",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:252488&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/252488/andres-roman",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:252488",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/252488/andres-roman",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/252488/andres-roman",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "position": {
+          "id": "2",
+          "name": "Defender",
+          "displayName": "Defender",
+          "abbreviation": "D",
+          "leaf": false,
+          "slug": "defender"
+        },
+        "displayJersey": "#6"
+      },
+      {
+        "id": "287250",
+        "uid": "s:600~a:287250",
+        "guid": "c3d268c3-6c5c-f6d1-9601-ad4656897e13",
+        "displayName": "César Haydar",
+        "jersey": "4",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/287250/cesar-haydar",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/287250/cesar-haydar",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:287250&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/287250/cesar-haydar",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/287250/cesar-haydar",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:287250&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/287250/cesar-haydar",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:287250&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/287250/cesar-haydar",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:287250&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/287250/cesar-haydar",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:287250",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/287250/cesar-haydar",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/287250/cesar-haydar",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "position": {
+          "id": "2",
+          "name": "Defender",
+          "displayName": "Defender",
+          "abbreviation": "D",
+          "leaf": false,
+          "slug": "defender"
+        },
+        "displayJersey": "#4"
+      },
+      {
+        "id": "315577",
+        "uid": "s:600~a:315577",
+        "guid": "1d45862d-56b3-37d1-8935-25827296079f",
+        "displayName": "Yaicar Perlaza",
+        "jersey": "27",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/315577/yaicar-perlaza",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/315577/yaicar-perlaza",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:315577&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/315577/yaicar-perlaza",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/315577/yaicar-perlaza",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:315577&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/315577/yaicar-perlaza",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:315577&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/315577/yaicar-perlaza",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:315577&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/315577/yaicar-perlaza",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:315577",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/315577/yaicar-perlaza",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/315577/yaicar-perlaza",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "position": {
+          "id": "2",
+          "name": "Defender",
+          "displayName": "Defender",
+          "abbreviation": "D",
+          "leaf": false,
+          "slug": "defender"
+        },
+        "displayJersey": "#27"
+      },
+      {
+        "id": "399235",
+        "uid": "s:600~a:399235",
+        "guid": "63b24dc0-9d44-3222-8965-474b3201d65d",
+        "displayName": "Robinson García",
+        "jersey": "36",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/399235/robinson-garcia",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/399235/robinson-garcia",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:399235&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/399235/robinson-garcia",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/399235/robinson-garcia",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:399235&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/399235/robinson-garcia",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:399235&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/399235/robinson-garcia",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:399235&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/399235/robinson-garcia",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:399235",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/399235/robinson-garcia",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/399235/robinson-garcia",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "position": {
+          "id": "2",
+          "name": "Defender",
+          "displayName": "Defender",
+          "abbreviation": "D",
+          "leaf": false,
+          "slug": "defender"
+        },
+        "displayJersey": "#36"
+      },
+      {
+        "id": "407306",
+        "uid": "s:600~a:407306",
+        "guid": "a4f62a3a-15b5-3b98-8acd-b5c1fe5f07d4",
+        "displayName": "Andrés Marín",
+        "jersey": "26",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/407306/andres-marin",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/407306/andres-marin",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:407306&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/407306/andres-marin",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/407306/andres-marin",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:407306&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/407306/andres-marin",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:407306&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/407306/andres-marin",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:407306&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/407306/andres-marin",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:407306",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/407306/andres-marin",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/407306/andres-marin",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "position": {
+          "id": "2",
+          "name": "Defender",
+          "displayName": "Defender",
+          "abbreviation": "D",
+          "leaf": false,
+          "slug": "defender"
+        },
+        "displayJersey": "#26"
+      },
+      {
+        "id": "419252",
+        "uid": "s:600~a:419252",
+        "guid": "1fc4b968-f496-3ab5-b36d-cbeb5cc382f7",
+        "displayName": "Neider Parra",
+        "jersey": "3",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/419252/neider-parra",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/419252/neider-parra",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:419252&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/419252/neider-parra",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/419252/neider-parra",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:419252&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/419252/neider-parra",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:419252&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/419252/neider-parra",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:419252&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/419252/neider-parra",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:419252",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/419252/neider-parra",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/419252/neider-parra",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "position": {
+          "id": "2",
+          "name": "Defender",
+          "displayName": "Defender",
+          "abbreviation": "D",
+          "leaf": false,
+          "slug": "defender"
+        },
+        "displayJersey": "#3"
+      }
+    ],
+    "links": [
+      {
+        "language": "en",
+        "rel": [
+          "squad",
+          "desktop",
+          "team"
+        ],
+        "href": "https://www.espn.com/soccer/team/squad/_/id/5264/atletico-nacional",
+        "text": "Squad",
+        "shortText": "Squad",
+        "isExternal": false,
+        "isPremium": false
+      }
+    ],
+    "filters": [
+      {
+        "displayName": "Team",
+        "name": "team",
+        "value": "5264",
+        "options": [
+          {
+            "value": "9761",
+            "displayValue": "Alianza FC"
+          },
+          {
+            "value": "8109",
+            "displayValue": "América de Cali"
+          },
+          {
+            "value": "6137",
+            "displayValue": "Atlético Bucaramanga"
+          },
+          {
+            "value": "4815",
+            "displayValue": "Atlético Junior"
+          },
+          {
+            "value": "5264",
+            "displayValue": "Atlético Nacional"
+          },
+          {
+            "value": "5480",
+            "displayValue": "Boyacá Chicó FC"
+          },
+          {
+            "value": "6101",
+            "displayValue": "Cúcuta Deportivo"
+          },
+          {
+            "value": "5489",
+            "displayValue": "Deportes Tolima"
+          },
+          {
+            "value": "2672",
+            "displayValue": "Deportivo Cali"
+          },
+          {
+            "value": "5485",
+            "displayValue": "Deportivo Pasto"
+          },
+          {
+            "value": "5486",
+            "displayValue": "Deportivo Pereira"
+          },
+          {
+            "value": "4928",
+            "displayValue": "Fortaleza CEIF"
+          },
+          {
+            "value": "2690",
+            "displayValue": "Independiente Medellín"
+          },
+          {
+            "value": "5488",
+            "displayValue": "Independiente Santa Fe"
+          },
+          {
+            "value": "7445",
+            "displayValue": "Internacional de Bogotá"
+          },
+          {
+            "value": "10309",
+            "displayValue": "Jaguares de Córdoba"
+          },
+          {
+            "value": "7915",
+            "displayValue": "Llaneros FC"
+          },
+          {
+            "value": "5484",
+            "displayValue": "Millonarios"
+          },
+          {
+            "value": "2919",
+            "displayValue": "Once Caldas"
+          },
+          {
+            "value": "9762",
+            "displayValue": "Águilas Doradas"
+          }
+        ]
+      },
+      {
+        "displayName": "Position",
+        "name": "position",
+        "value": "2",
+        "options": [
+          {
+            "value": "19",
+            "displayValue": "Forward"
+          },
+          {
+            "value": "10",
+            "displayValue": "Midfielder"
+          },
+          {
+            "value": "2",
+            "displayValue": "Defender"
+          },
+          {
+            "value": "1",
+            "displayValue": "Goalkeeper"
+          }
+        ]
+      }
+    ]
+  },
+  "quicklinks": [
+    {
+      "text": "[team] Quick Links",
+      "title": "Player Quick Links - Team - Soccer - EN",
+      "items": [
+        {
+          "title": "Player Quick Link - Soccer - Schedule - EN",
+          "links": [
+            {
+              "href": "http://www.espn.com/soccer/team/fixture/_/id/[id]",
+              "text": "Schedule",
+              "shortText": "Schedule",
+              "isExternal": false,
+              "isPremium": false,
+              "attributes": {
+                "icon": "calendar"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Player Quick Link - Soccer - Squad - EN",
+          "links": [
+            {
+              "href": "http://www.espn.com/soccer/team/squad/_/id/[id]",
+              "text": "Squad",
+              "shortText": "Squad",
+              "isExternal": false,
+              "isPremium": false,
+              "attributes": {
+                "icon": "list__ordered_solid"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Player Quick Link - Soccer - Stats - EN",
+          "links": [
+            {
+              "href": "http://www.espn.com/soccer/team/stats/_/id/[id]",
+              "text": "Stats",
+              "shortText": "Stats",
+              "isExternal": false,
+              "isPremium": false,
+              "attributes": {
+                "icon": "stats"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "[leagueName] Quick Links",
+      "title": "Player Quick Links - League - Soccer - EN",
+      "items": [
+        {
+          "title": "Player Quick Link - Scores - Soccer - EN",
+          "links": [
+            {
+              "href": "https://www.espn.com/soccer/scoreboard/_/league/[leagueAbbrev]",
+              "text": "Scores",
+              "shortText": "Scores",
+              "isExternal": false,
+              "isPremium": false,
+              "attributes": {
+                "icon": "scores__outline"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Player Quick Link - Schedule - Soccer - EN",
+          "links": [
+            {
+              "href": "https://www.espn.com/soccer/fixtures/_/league/[leagueAbbrev]",
+              "text": "Schedule",
+              "shortText": "Schedule",
+              "isExternal": false,
+              "isPremium": false,
+              "attributes": {
+                "icon": "calendar"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Player Quick Link - Table - Soccer - EN",
+          "links": [
+            {
+              "href": "http://www.espn.com/soccer/standings/_/league/[leagueAbbrev]",
+              "text": "Table",
+              "shortText": "Table",
+              "isExternal": false,
+              "isPremium": false,
+              "attributes": {
+                "icon": "list__ordered_solid"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "overview",
+        "desktop",
+        "athlete"
+      ],
+      "href": "https://www.espn.com/soccer/player/_/id/135867/milton-casco",
+      "text": "Overview",
+      "shortText": "Overview",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "bio",
+        "desktop",
+        "athlete"
+      ],
+      "href": "https://www.espn.com/soccer/player/bio/_/id/135867/milton-casco",
+      "text": "Bio",
+      "shortText": "Bio",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "news",
+        "desktop",
+        "athlete"
+      ],
+      "href": "https://www.espn.com/soccer/player/news/_/id/135867/milton-casco",
+      "text": "News",
+      "shortText": "News",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "gamelog",
+        "desktop",
+        "athlete"
+      ],
+      "href": "https://www.espn.com/soccer/player/matches/_/id/135867/milton-casco",
+      "text": "Matches",
+      "shortText": "Matches",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "stats",
+        "desktop",
+        "athlete"
+      ],
+      "href": "https://www.espn.com/soccer/player/stats/_/id/135867/milton-casco",
+      "text": "Stats",
+      "shortText": "Stats",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ]
+}

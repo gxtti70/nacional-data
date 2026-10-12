@@ -1,0 +1,42 @@
+{
+  "gallery": {
+    "estadio": {
+      "src": "/gallery/estadio.jpg",
+      "title": "Atanasio Girardot(2)-Busto-Medellin.JPG",
+      "author": "SajoR",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Atanasio_Girardot(2)-Busto-Medellin.JPG",
+      "credit": "SajoR · Public domain · Wikimedia Commons"
+    }
+  },
+  "legends": {
+    "rene-higuita": {
+      "src": "/legends/rene-higuita.jpg",
+      "title": "René Higuita, 2007.jpg",
+      "author": "Isolinamajul",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Ren%C3%A9_Higuita,_2007.jpg",
+      "credit": "Isolinamajul · Public domain · Wikimedia Commons"
+    },
+    "victor-aristizabal": {
+      "src": "/legends/victor-aristizabal.jpg",
+      "title": "Víctor Hugo Aristizabal 01.jpg",
+      "author": "Programas Telemedellín",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:V%C3%ADctor_Hugo_Aristizabal_01.jpg",
+      "credit": "Programas Telemedellín · CC BY 3.0 · Wikimedia Commons"
+    },
+    "leonel-alvarez": {
+      "src": "/legends/leonel-alvarez.jpg",
+      "title": "Leonel de Jesús Álvarez Zuleta.jpg",
+      "author": "https://www.flickr.com/photos/sergiofajardo/ (Sergio Fajardo Valderrama)",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "pageUrl": "https://commons.wikimedia.org/wiki/File:Leonel_de_Jes%C3%BAs_%C3%81lvarez_Zuleta.jpg",
+      "credit": "https://www.flickr.com/photos/sergiofajardo/ (Sergio Fajardo Valderrama) · CC BY 2.0 · Wikimedia Commons"
+    }
+  }
+}

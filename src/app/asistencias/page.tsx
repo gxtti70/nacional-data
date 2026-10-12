@@ -1,6 +1,9 @@
 import SectionHeader from '@/components/ui/SectionHeader'
 import SectionIntro from '@/components/ui/SectionIntro'
 import { attendance, stadiumCapacity } from '@/data/attendance'
+import { pageMetadata } from '@/lib/metadata'
+
+export const metadata = pageMetadata('Asistencia al estadio', 'Promedio de asistencia y capacidad del estadio Atanasio Girardot.')
 
 export default function AsistenciasPage() {
   return (

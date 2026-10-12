@@ -36,16 +36,15 @@ export const seasons: Season[] = SeasonSchema.array().parse([
   {
     id: '2026', label: '2026', current: true,
     stats: {
-      'jugador-01': s(10, 0, 0, 1980), 'jugador-02': s(3, 0, 0, 1750), 'jugador-03': s(2, 1, 0, 1600),
-      'jugador-04': s(1, 0, 1, 1800), 'jugador-05': s(4, 0, 0, 1700), 'jugador-06': s(9, 0, 0, 1750),
-      'jugador-07': s(9, 1, 2, 1650), 'jugador-08': s(7, 0, 0, 1100), 'jugador-09': s(10, 0, 2, 1500),
-      'jugador-10': s(6, 1, 1, 1100), 'jugador-11': s(6, 0, 0, 1300), 'jugador-12': s(4, 0, 1, 950),
-      'jugador-13': s(0, 0, 0, 0), 'jugador-14': s(9, 2, 0, 1200), 'jugador-15': s(6, 0, 1, 1750),
-      // Nuevos jugadores (16 al 26) para 2026
-      'jugador-16': s(8, 2, 1, 1300), 'jugador-17': s(10, 0, 1, 1550), 'jugador-18': s(5, 1, 2, 850),
-      'jugador-19': s(3, 0, 1, 106), 'jugador-20': s(10, 3, 1, 612), 'jugador-21': s(6, 0, 1, 195),
-      'jugador-22': s(11, 5, 1, 179),  'jugador-23': s(7, 2, 1, 335), 'jugador-24': s(5, 1, 0, 202),
-      'jugador-25': s(11, 0, 0, 357), 'jugador-26': s(9, 5, 2, 597),
+      'jugador-01': s(10, 0, 0, 0), 'jugador-02': s(1, 0, 0, 0), 'jugador-03': s(2, 1, 0, 0),
+      'jugador-04': s(13, 0, 2, 0), 'jugador-05': s(19, 0, 1, 0), 'jugador-06': s(26, 1, 2, 0),
+      'jugador-07': s(16, 0, 1, 0), 'jugador-08': s(26, 2, 2, 0), 'jugador-09': s(32, 4, 2, 0),
+      'jugador-10': s(6, 0, 1, 0), 'jugador-11': s(26, 1, 1, 0), 'jugador-12': s(27, 2, 1, 0),
+      'jugador-13': s(2, 0, 0, 0), 'jugador-14': s(23, 1, 0, 0), 'jugador-15': s(6, 0, 1, 1750),
+      'jugador-16': s(29, 6, 3, 0), 'jugador-17': s(32, 7, 7, 0), 'jugador-18': s(6, 1, 1, 0),
+      'jugador-19': s(5, 0, 2, 0), 'jugador-20': s(34, 8, 6, 0), 'jugador-21': s(4, 0, 0, 0),
+      'jugador-22': s(30, 7, 2, 0), 'jugador-23': s(8, 2, 2, 0), 'jugador-24': s(21, 0, 4, 0),
+      'jugador-25': s(24, 2, 1, 0), 'jugador-26': s(30, 14, 6, 0),
     },
   },
 ])

@@ -4,9 +4,18 @@ import { players, playerPhoto } from '@/data/players'
 import { seasons } from '@/data/seasons'
 import Photo from '@/components/ui/Photo'
 import SectionHeader from '@/components/ui/SectionHeader'
+import { pageMetadata } from '@/lib/metadata'
+import type { Metadata } from 'next'
 
 export function generateStaticParams() {
   return players.map((p) => ({ slug: p.slug }))
+}
+
+export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
+  const player = players.find((item) => item.slug === params.slug)
+  return player
+    ? pageMetadata(`${player.name} · Plantilla`, `Perfil y estadísticas por temporada de ${player.name} en Atlético Nacional.`)
+    : pageMetadata('Jugador no encontrado', 'El jugador solicitado no está en la plantilla del Atlético Nacional.')
 }
 
 export default function PlayerDetailPage({ params }: { params: { slug: string } }) {

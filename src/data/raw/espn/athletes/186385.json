@@ -1,0 +1,4580 @@
+{
+  "athlete": {
+    "id": "186385",
+    "uid": "s:600~a:186385",
+    "guid": "005cd812-6696-aac4-77a5-6c079630bab3",
+    "type": "soccer",
+    "firstName": "Cristian",
+    "lastName": "Arango",
+    "displayName": "Cristian Arango",
+    "fullName": "Cristian Arango",
+    "jersey": "17",
+    "links": [
+      {
+        "language": "en",
+        "rel": [
+          "playercard",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/_/id/186385/cristian-arango",
+        "text": "Player Card",
+        "shortText": "Player Card",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "stats",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/stats/_/id/186385/cristian-arango",
+        "text": "Stats",
+        "shortText": "Stats",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "stats",
+          "sportscenter",
+          "app",
+          "athlete"
+        ],
+        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:186385&section=stats",
+        "text": "Stats",
+        "shortText": "Stats",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "splits",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/splits/_/id/186385/cristian-arango",
+        "text": "Splits",
+        "shortText": "Splits",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "gamelog",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/matches/_/id/186385/cristian-arango",
+        "text": "Matches",
+        "shortText": "Matches",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "gamelog",
+          "sportscenter",
+          "app",
+          "athlete"
+        ],
+        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:186385&section=gamelog",
+        "text": "Matches",
+        "shortText": "Matches",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "news",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/news/_/id/186385/cristian-arango",
+        "text": "News",
+        "shortText": "News",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "news",
+          "sportscenter",
+          "app",
+          "athlete"
+        ],
+        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:186385&section=news",
+        "text": "News",
+        "shortText": "News",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "bio",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/bio/_/id/186385/cristian-arango",
+        "text": "Bio",
+        "shortText": "Bio",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "bio",
+          "sportscenter",
+          "app",
+          "athlete"
+        ],
+        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:186385&section=bio",
+        "text": "Bio",
+        "shortText": "Bio",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "overview",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/_/id/186385/cristian-arango",
+        "text": "Overview",
+        "shortText": "Overview",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "overview",
+          "sportscenter",
+          "app",
+          "athlete"
+        ],
+        "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:186385",
+        "text": "Overview",
+        "shortText": "Overview",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "transfers",
+          "desktop",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/transfers/_/id/186385/cristian-arango",
+        "text": "Transfers",
+        "shortText": "Transfers",
+        "isExternal": false,
+        "isPremium": false
+      },
+      {
+        "language": "en",
+        "rel": [
+          "transfers",
+          "mobile",
+          "athlete"
+        ],
+        "href": "https://www.espn.com/soccer/player/transfers/_/id/186385/cristian-arango",
+        "text": "Transfers",
+        "shortText": "Transfers",
+        "isExternal": false,
+        "isPremium": false
+      }
+    ],
+    "headshot": {
+      "href": "https://a.espncdn.com/i/headshots/soccer/players/full/186385.png",
+      "alt": "Cristian Arango"
+    },
+    "position": {
+      "id": "19",
+      "name": "Forward",
+      "displayName": "Forward",
+      "abbreviation": "F",
+      "leaf": false,
+      "slug": "forward"
+    },
+    "team": {
+      "id": "5264",
+      "uid": "s:600~t:5264",
+      "guid": "32c343a2-f70d-c6ef-cc38-73b369b8ee5e",
+      "slug": "col.atletico_nacional",
+      "location": "Atlético Nacional",
+      "name": "Atlético Nacional",
+      "abbreviation": "NAL",
+      "displayName": "Atlético Nacional",
+      "shortDisplayName": "Atl. Nacional",
+      "color": "06933c",
+      "alternateColor": "000000",
+      "isActive": true,
+      "isAllStar": false,
+      "logos": [
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
+          "width": 500,
+          "height": 500,
+          "rel": [
+            "full",
+            "default"
+          ]
+        },
+        {
+          "href": "https://a.espncdn.com/i/teamlogos/soccer/500-dark/5264.png",
+          "width": 500,
+          "height": 500,
+          "rel": [
+            "full",
+            "dark"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "clubhouse",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/football/club/_/id/5264/atletico-nacional",
+          "text": "Clubhouse",
+          "shortText": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "stats",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/stats/_/id/5264/atletico-nacional",
+          "text": "Stats",
+          "shortText": "Stats",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "stats",
+            "sportscenter",
+            "app",
+            "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:5264&section=stats",
+          "text": "Stats",
+          "shortText": "Stats",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "schedule",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/fixtures/_/id/5264/atletico-nacional",
+          "text": "Fixtures",
+          "shortText": "Fixtures",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "schedule",
+            "sportscenter",
+            "app",
+            "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:5264&section=scores",
+          "text": "Fixtures",
+          "shortText": "Fixtures",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "results",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/results/_/id/5264/atletico-nacional",
+          "text": "Results",
+          "shortText": "Results",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "results",
+            "sportscenter",
+            "app",
+            "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:5264&section=scores",
+          "text": "Results",
+          "shortText": "Results",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "standings",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/soccer/standings/_/league/col.1",
+          "text": "Standings",
+          "shortText": "Standings",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "standings",
+            "sportscenter",
+            "app",
+            "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:5264&section=standings",
+          "text": "Standings",
+          "shortText": "Standings",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "squad",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/soccer/team/squad/_/id/5264/atletico-nacional",
+          "text": "Squad",
+          "shortText": "Squad",
+          "isExternal": false,
+          "isPremium": false
+        },
+        {
+          "language": "en",
+          "rel": [
+            "squad",
+            "sportscenter",
+            "app",
+            "team"
+          ],
+          "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~t:5264&section=squad",
+          "text": "Squad",
+          "shortText": "Squad",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ],
+      "groups": {
+        "uid": "s:600~l:650~g:1",
+        "id": "1",
+        "name": "Clausura",
+        "abbreviation": "Clausura",
+        "season": {},
+        "standings": {}
+      },
+      "venue": {
+        "id": "10593",
+        "fullName": "Atanasio Girardot",
+        "shortName": "Atanasio Girardot",
+        "address": {
+          "city": "Medellin",
+          "country": "Colombia"
+        }
+      },
+      "record": {},
+      "defaultLeague": {},
+      "isNational": false,
+      "athletes": {},
+      "franchise": {}
+    },
+    "active": true,
+    "status": {
+      "id": "1",
+      "name": "Active",
+      "type": "active",
+      "abbreviation": "Active"
+    },
+    "statsSummary": {
+      "displayName": "2026 Colombian Primera A Stats",
+      "statistics": [
+        {
+          "name": "starts-subIns",
+          "type": "START (SUB)",
+          "displayName": "Starts-Substitute Appearances",
+          "shortDisplayName": "STRT-SUBIN",
+          "description": "The number of starts a player has made in matches.-The number of times a player has come on a sub in a match.",
+          "abbreviation": "START (SUB)",
+          "value": 9,
+          "displayValue": "9 (15)"
+        },
+        {
+          "name": "totalGoals",
+          "displayName": "Total Goals",
+          "shortDisplayName": "G",
+          "description": "The number of goals scored against the opposing team.",
+          "abbreviation": "G",
+          "value": 2,
+          "displayValue": "2"
+        },
+        {
+          "name": "goalAssists",
+          "displayName": "Assists",
+          "shortDisplayName": "A",
+          "description": "The number of assists.",
+          "abbreviation": "A",
+          "value": 1,
+          "displayValue": "1"
+        },
+        {
+          "name": "totalShots",
+          "displayName": "Shots",
+          "shortDisplayName": "SHOT",
+          "description": "The number of shots attempted.",
+          "abbreviation": "SHOT",
+          "value": 38,
+          "displayValue": "38"
+        }
+      ]
+    },
+    "displayHeight": "5' 10\"",
+    "displayWeight": "152 lbs",
+    "displayDOB": "9/3/1995",
+    "age": 31,
+    "gender": "MALE",
+    "displayJersey": "#17",
+    "citizenship": "Colombia",
+    "citizenshipCountry": {
+      "alternateId": "23",
+      "abbreviation": "COL"
+    },
+    "flag": {
+      "href": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+      "alt": "Colombia",
+      "rel": [
+        "country-flag"
+      ]
+    }
+  },
+  "season": {
+    "year": 2026,
+    "startDate": "2026-01-01T05:00:00.000+00:00",
+    "endDate": "2027-01-01T04:59:00.000+00:00",
+    "type": {
+      "id": "5",
+      "type": 13938,
+      "name": "Clausura",
+      "abbreviation": "2026 Colombian Clausura",
+      "slug": "clausura",
+      "startDate": "2026-06-09T04:00:00.000+00:00",
+      "endDate": "2026-11-10T04:59:00.000+00:00",
+      "hasGroups": false,
+      "hasStandings": true,
+      "hasLegs": false
+    },
+    "types": {
+      "count": 6,
+      "pageIndex": 1,
+      "pageSize": 6,
+      "pageCount": 1,
+      "items": [
+        {
+          "id": "1",
+          "type": 13942,
+          "name": "Apertura",
+          "abbreviation": "2026 Colombian Apertura",
+          "slug": "apertura",
+          "startDate": "2026-01-01T05:00:00.000+00:00",
+          "endDate": "2026-05-27T03:59:00.000+00:00",
+          "hasGroups": false,
+          "hasStandings": true,
+          "hasLegs": false
+        },
+        {
+          "id": "2",
+          "type": 13941,
+          "name": "Apertura - Quarterfinals",
+          "abbreviation": "Playoffs - Quarterfinals",
+          "slug": "apertura---quarterfinals",
+          "startDate": "2026-05-05T04:00:00.000+00:00",
+          "endDate": "2026-05-15T03:59:00.000+00:00",
+          "hasGroups": false,
+          "hasStandings": false,
+          "hasLegs": true
+        },
+        {
+          "id": "3",
+          "type": 13940,
+          "name": "Apertura - Semifinals",
+          "abbreviation": "Playoffs - Semifinals",
+          "slug": "apertura---semifinals",
+          "startDate": "2026-05-15T04:00:00.000+00:00",
+          "endDate": "2026-05-25T03:59:00.000+00:00",
+          "hasGroups": false,
+          "hasStandings": false,
+          "hasLegs": true
+        },
+        {
+          "id": "4",
+          "type": 13939,
+          "name": "Apertura - Finals",
+          "abbreviation": "Playoffs - Finals",
+          "slug": "apertura---finals",
+          "startDate": "2026-05-25T04:00:00.000+00:00",
+          "endDate": "2026-06-09T03:59:00.000+00:00",
+          "hasGroups": false,
+          "hasStandings": false,
+          "hasLegs": true
+        },
+        {
+          "id": "5",
+          "type": 13938,
+          "name": "Clausura",
+          "abbreviation": "2026 Colombian Clausura",
+          "slug": "clausura",
+          "startDate": "2026-06-09T04:00:00.000+00:00",
+          "endDate": "2026-11-10T04:59:00.000+00:00",
+          "hasGroups": false,
+          "hasStandings": true,
+          "hasLegs": false
+        },
+        {
+          "id": "6",
+          "type": 13937,
+          "name": "Playoffs - Finals",
+          "abbreviation": "Finals",
+          "slug": "playoffs---finals",
+          "startDate": "2026-11-14T05:00:00.000+00:00",
+          "endDate": "2027-01-01T04:59:00.000+00:00",
+          "hasGroups": false,
+          "hasStandings": false,
+          "hasLegs": true
+        }
+      ]
+    },
+    "displayName": "2026 Liga BetPlay",
+    "shortDisplayName": "2026 Liga BetPlay",
+    "abbreviation": "2026"
+  },
+  "league": {
+    "id": "650",
+    "uid": "s:600~l:650",
+    "name": "Colombian Primera A",
+    "abbreviation": "Colombian Primera A",
+    "slug": "col.1",
+    "logos": [
+      {
+        "href": "https://a.espncdn.com/i/leaguelogos/soccer/500/1543.png",
+        "width": 500,
+        "height": 500,
+        "rel": [
+          "full",
+          "default"
+        ]
+      },
+      {
+        "href": "https://a.espncdn.com/i/leaguelogos/soccer/500-dark/1543.png",
+        "width": 500,
+        "height": 500,
+        "rel": [
+          "full",
+          "dark"
+        ]
+      }
+    ],
+    "midsizeName": "COL.1",
+    "shortName": "Colombian Primera A"
+  },
+  "playerSwitcher": {
+    "team": {
+      "id": "5264",
+      "uid": "s:600~t:5264",
+      "slug": "col.atletico_nacional",
+      "location": "Atlético Nacional",
+      "alternateLocation": "Atlético Nacional",
+      "name": "Atlético Nacional",
+      "abbreviation": "NAL",
+      "displayName": "Atlético Nacional",
+      "shortDisplayName": "Atl. Nacional",
+      "color": "06933c",
+      "alternateColor": "000000",
+      "logo": "https://a.espncdn.com/i/teamlogos/soccer/500/5264.png",
+      "links": [
+        {
+          "language": "en",
+          "rel": [
+            "clubhouse",
+            "desktop",
+            "team"
+          ],
+          "href": "https://www.espn.com/football/club/_/id/5264/atletico-nacional",
+          "text": "Clubhouse",
+          "shortText": "Clubhouse",
+          "isExternal": false,
+          "isPremium": false
+        }
+      ]
+    },
+    "athletes": [
+      {
+        "id": "70721",
+        "uid": "s:600~a:70721",
+        "guid": "c94b6828-6bb2-6107-675f-4e99ca9d52ae",
+        "displayName": "Andrés Sarmiento",
+        "jersey": "29",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/70721/andres-sarmiento",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/70721/andres-sarmiento",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:70721&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/70721/andres-sarmiento",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/70721/andres-sarmiento",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:70721&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/70721/andres-sarmiento",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:70721&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/70721/andres-sarmiento",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:70721&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/70721/andres-sarmiento",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:70721",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/70721/andres-sarmiento",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/70721/andres-sarmiento",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "position": {
+          "id": "19",
+          "name": "Forward",
+          "displayName": "Forward",
+          "abbreviation": "F",
+          "leaf": false,
+          "slug": "forward"
+        },
+        "displayJersey": "#29"
+      },
+      {
+        "id": "186087",
+        "uid": "s:600~a:186087",
+        "guid": "50771fc2-dbb2-22af-f14a-e4916b2180d1",
+        "displayName": "Alfredo Morelos",
+        "jersey": "9",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/186087/alfredo-morelos",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/186087/alfredo-morelos",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:186087&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/186087/alfredo-morelos",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/186087/alfredo-morelos",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:186087&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/186087/alfredo-morelos",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:186087&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/186087/alfredo-morelos",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:186087&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/186087/alfredo-morelos",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:186087",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/186087/alfredo-morelos",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/186087/alfredo-morelos",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "position": {
+          "id": "19",
+          "name": "Forward",
+          "displayName": "Forward",
+          "abbreviation": "F",
+          "leaf": false,
+          "slug": "forward"
+        },
+        "displayJersey": "#9"
+      },
+      {
+        "id": "186385",
+        "uid": "s:600~a:186385",
+        "guid": "005cd812-6696-aac4-77a5-6c079630bab3",
+        "displayName": "Cristian Arango",
+        "jersey": "17",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/186385/cristian-arango",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/186385/cristian-arango",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:186385&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/186385/cristian-arango",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/186385/cristian-arango",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:186385&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/186385/cristian-arango",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:186385&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/186385/cristian-arango",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:186385&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/186385/cristian-arango",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:186385",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/186385/cristian-arango",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/186385/cristian-arango",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "headshot": {
+          "href": "https://a.espncdn.com/i/headshots/soccer/players/full/186385.png",
+          "alt": "Cristian Arango"
+        },
+        "position": {
+          "id": "19",
+          "name": "Forward",
+          "displayName": "Forward",
+          "abbreviation": "F",
+          "leaf": false,
+          "slug": "forward"
+        },
+        "displayJersey": "#17"
+      },
+      {
+        "id": "197406",
+        "uid": "s:600~a:197406",
+        "guid": "5bdddcda-4548-9c67-5338-84eebe9ee973",
+        "displayName": "Marlos Moreno",
+        "jersey": "7",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/197406/marlos-moreno",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/197406/marlos-moreno",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:197406&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/197406/marlos-moreno",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/197406/marlos-moreno",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:197406&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/197406/marlos-moreno",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:197406&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/197406/marlos-moreno",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:197406&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/197406/marlos-moreno",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:197406",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/197406/marlos-moreno",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/197406/marlos-moreno",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "position": {
+          "id": "19",
+          "name": "Forward",
+          "displayName": "Forward",
+          "abbreviation": "F",
+          "leaf": false,
+          "slug": "forward"
+        },
+        "displayJersey": "#7"
+      },
+      {
+        "id": "264251",
+        "uid": "s:600~a:264251",
+        "guid": "fa97b895-7335-5df4-63fc-646b441c040b",
+        "displayName": "Ian Poveda-Ocampo",
+        "jersey": "99",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/264251/ian-poveda-ocampo",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/264251/ian-poveda-ocampo",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:264251&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/264251/ian-poveda-ocampo",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/264251/ian-poveda-ocampo",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:264251&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/264251/ian-poveda-ocampo",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:264251&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/264251/ian-poveda-ocampo",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:264251&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/264251/ian-poveda-ocampo",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:264251",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/264251/ian-poveda-ocampo",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/264251/ian-poveda-ocampo",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "position": {
+          "id": "19",
+          "name": "Forward",
+          "displayName": "Forward",
+          "abbreviation": "F",
+          "leaf": false,
+          "slug": "forward"
+        },
+        "displayJersey": "#99"
+      },
+      {
+        "id": "345363",
+        "uid": "s:600~a:345363",
+        "guid": "54a498b7-813b-319c-8ab6-e0ab5f5ffdad",
+        "displayName": "Juan Manuel Rengifo",
+        "jersey": "19",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/345363/juan-manuel-rengifo",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/345363/juan-manuel-rengifo",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:345363&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/345363/juan-manuel-rengifo",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/345363/juan-manuel-rengifo",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:345363&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/345363/juan-manuel-rengifo",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:345363&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/345363/juan-manuel-rengifo",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:345363&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/345363/juan-manuel-rengifo",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:345363",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/345363/juan-manuel-rengifo",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/345363/juan-manuel-rengifo",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "position": {
+          "id": "19",
+          "name": "Forward",
+          "displayName": "Forward",
+          "abbreviation": "F",
+          "leaf": false,
+          "slug": "forward"
+        },
+        "displayJersey": "#19"
+      },
+      {
+        "id": "378916",
+        "uid": "s:600~a:378916",
+        "guid": "272a2500-0cd4-3c77-80e7-159291f13652",
+        "displayName": "Nicolás Rodríguez",
+        "jersey": "13",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/378916/nicolas-rodriguez",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/378916/nicolas-rodriguez",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:378916&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/378916/nicolas-rodriguez",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/378916/nicolas-rodriguez",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:378916&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/378916/nicolas-rodriguez",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:378916&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/378916/nicolas-rodriguez",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:378916&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/378916/nicolas-rodriguez",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:378916",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/378916/nicolas-rodriguez",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/378916/nicolas-rodriguez",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "position": {
+          "id": "19",
+          "name": "Forward",
+          "displayName": "Forward",
+          "abbreviation": "F",
+          "leaf": false,
+          "slug": "forward"
+        },
+        "displayJersey": "#13"
+      },
+      {
+        "id": "399234",
+        "uid": "s:600~a:399234",
+        "guid": "a98a0341-2038-32d0-80ac-b77a23844098",
+        "displayName": "Juan Rosa",
+        "jersey": "24",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/399234/juan-rosa",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/399234/juan-rosa",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:399234&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/399234/juan-rosa",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/399234/juan-rosa",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:399234&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/399234/juan-rosa",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:399234&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/399234/juan-rosa",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:399234&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/399234/juan-rosa",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:399234",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/399234/juan-rosa",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/399234/juan-rosa",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "position": {
+          "id": "19",
+          "name": "Forward",
+          "displayName": "Forward",
+          "abbreviation": "F",
+          "leaf": false,
+          "slug": "forward"
+        },
+        "displayJersey": "#24"
+      },
+      {
+        "id": "3143917",
+        "uid": "s:600~a:3143917",
+        "guid": "f31e2314-cf67-3aeb-beea-ca4620f06bc2",
+        "displayName": "Emanuel Benitez",
+        "jersey": "32",
+        "links": [
+          {
+            "language": "en",
+            "rel": [
+              "playercard",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/3143917/emanuel-benitez",
+            "text": "Player Card",
+            "shortText": "Player Card",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/stats/_/id/3143917/emanuel-benitez",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "stats",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:3143917&section=stats",
+            "text": "Stats",
+            "shortText": "Stats",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "splits",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/splits/_/id/3143917/emanuel-benitez",
+            "text": "Splits",
+            "shortText": "Splits",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/matches/_/id/3143917/emanuel-benitez",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "gamelog",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:3143917&section=gamelog",
+            "text": "Matches",
+            "shortText": "Matches",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/news/_/id/3143917/emanuel-benitez",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "news",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:3143917&section=news",
+            "text": "News",
+            "shortText": "News",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/bio/_/id/3143917/emanuel-benitez",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "bio",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:3143917&section=bio",
+            "text": "Bio",
+            "shortText": "Bio",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/_/id/3143917/emanuel-benitez",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "overview",
+              "sportscenter",
+              "app",
+              "athlete"
+            ],
+            "href": "sportscenter://x-callback-url/showClubhouse?uid=s:600~a:3143917",
+            "text": "Overview",
+            "shortText": "Overview",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "desktop",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/3143917/emanuel-benitez",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          },
+          {
+            "language": "en",
+            "rel": [
+              "transfers",
+              "mobile",
+              "athlete"
+            ],
+            "href": "https://www.espn.com/soccer/player/transfers/_/id/3143917/emanuel-benitez",
+            "text": "Transfers",
+            "shortText": "Transfers",
+            "isExternal": false,
+            "isPremium": false
+          }
+        ],
+        "position": {
+          "id": "19",
+          "name": "Forward",
+          "displayName": "Forward",
+          "abbreviation": "F",
+          "leaf": false,
+          "slug": "forward"
+        },
+        "displayJersey": "#32"
+      }
+    ],
+    "links": [
+      {
+        "language": "en",
+        "rel": [
+          "squad",
+          "desktop",
+          "team"
+        ],
+        "href": "https://www.espn.com/soccer/team/squad/_/id/5264/atletico-nacional",
+        "text": "Squad",
+        "shortText": "Squad",
+        "isExternal": false,
+        "isPremium": false
+      }
+    ],
+    "filters": [
+      {
+        "displayName": "Team",
+        "name": "team",
+        "value": "5264",
+        "options": [
+          {
+            "value": "9761",
+            "displayValue": "Alianza FC"
+          },
+          {
+            "value": "8109",
+            "displayValue": "América de Cali"
+          },
+          {
+            "value": "6137",
+            "displayValue": "Atlético Bucaramanga"
+          },
+          {
+            "value": "4815",
+            "displayValue": "Atlético Junior"
+          },
+          {
+            "value": "5264",
+            "displayValue": "Atlético Nacional"
+          },
+          {
+            "value": "5480",
+            "displayValue": "Boyacá Chicó FC"
+          },
+          {
+            "value": "6101",
+            "displayValue": "Cúcuta Deportivo"
+          },
+          {
+            "value": "5489",
+            "displayValue": "Deportes Tolima"
+          },
+          {
+            "value": "2672",
+            "displayValue": "Deportivo Cali"
+          },
+          {
+            "value": "5485",
+            "displayValue": "Deportivo Pasto"
+          },
+          {
+            "value": "5486",
+            "displayValue": "Deportivo Pereira"
+          },
+          {
+            "value": "4928",
+            "displayValue": "Fortaleza CEIF"
+          },
+          {
+            "value": "2690",
+            "displayValue": "Independiente Medellín"
+          },
+          {
+            "value": "5488",
+            "displayValue": "Independiente Santa Fe"
+          },
+          {
+            "value": "7445",
+            "displayValue": "Internacional de Bogotá"
+          },
+          {
+            "value": "10309",
+            "displayValue": "Jaguares de Córdoba"
+          },
+          {
+            "value": "7915",
+            "displayValue": "Llaneros FC"
+          },
+          {
+            "value": "5484",
+            "displayValue": "Millonarios"
+          },
+          {
+            "value": "2919",
+            "displayValue": "Once Caldas"
+          },
+          {
+            "value": "9762",
+            "displayValue": "Águilas Doradas"
+          }
+        ]
+      },
+      {
+        "displayName": "Position",
+        "name": "position",
+        "value": "19",
+        "options": [
+          {
+            "value": "19",
+            "displayValue": "Forward"
+          },
+          {
+            "value": "10",
+            "displayValue": "Midfielder"
+          },
+          {
+            "value": "2",
+            "displayValue": "Defender"
+          },
+          {
+            "value": "1",
+            "displayValue": "Goalkeeper"
+          }
+        ]
+      }
+    ]
+  },
+  "quicklinks": [
+    {
+      "text": "[team] Quick Links",
+      "title": "Player Quick Links - Team - Soccer - EN",
+      "items": [
+        {
+          "title": "Player Quick Link - Soccer - Schedule - EN",
+          "links": [
+            {
+              "href": "http://www.espn.com/soccer/team/fixture/_/id/[id]",
+              "text": "Schedule",
+              "shortText": "Schedule",
+              "isExternal": false,
+              "isPremium": false,
+              "attributes": {
+                "icon": "calendar"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Player Quick Link - Soccer - Squad - EN",
+          "links": [
+            {
+              "href": "http://www.espn.com/soccer/team/squad/_/id/[id]",
+              "text": "Squad",
+              "shortText": "Squad",
+              "isExternal": false,
+              "isPremium": false,
+              "attributes": {
+                "icon": "list__ordered_solid"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Player Quick Link - Soccer - Stats - EN",
+          "links": [
+            {
+              "href": "http://www.espn.com/soccer/team/stats/_/id/[id]",
+              "text": "Stats",
+              "shortText": "Stats",
+              "isExternal": false,
+              "isPremium": false,
+              "attributes": {
+                "icon": "stats"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "[leagueName] Quick Links",
+      "title": "Player Quick Links - League - Soccer - EN",
+      "items": [
+        {
+          "title": "Player Quick Link - Scores - Soccer - EN",
+          "links": [
+            {
+              "href": "https://www.espn.com/soccer/scoreboard/_/league/[leagueAbbrev]",
+              "text": "Scores",
+              "shortText": "Scores",
+              "isExternal": false,
+              "isPremium": false,
+              "attributes": {
+                "icon": "scores__outline"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Player Quick Link - Schedule - Soccer - EN",
+          "links": [
+            {
+              "href": "https://www.espn.com/soccer/fixtures/_/league/[leagueAbbrev]",
+              "text": "Schedule",
+              "shortText": "Schedule",
+              "isExternal": false,
+              "isPremium": false,
+              "attributes": {
+                "icon": "calendar"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Player Quick Link - Table - Soccer - EN",
+          "links": [
+            {
+              "href": "http://www.espn.com/soccer/standings/_/league/[leagueAbbrev]",
+              "text": "Table",
+              "shortText": "Table",
+              "isExternal": false,
+              "isPremium": false,
+              "attributes": {
+                "icon": "list__ordered_solid"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "language": "en",
+      "rel": [
+        "overview",
+        "desktop",
+        "athlete"
+      ],
+      "href": "https://www.espn.com/soccer/player/_/id/186385/cristian-arango",
+      "text": "Overview",
+      "shortText": "Overview",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "bio",
+        "desktop",
+        "athlete"
+      ],
+      "href": "https://www.espn.com/soccer/player/bio/_/id/186385/cristian-arango",
+      "text": "Bio",
+      "shortText": "Bio",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "news",
+        "desktop",
+        "athlete"
+      ],
+      "href": "https://www.espn.com/soccer/player/news/_/id/186385/cristian-arango",
+      "text": "News",
+      "shortText": "News",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "gamelog",
+        "desktop",
+        "athlete"
+      ],
+      "href": "https://www.espn.com/soccer/player/matches/_/id/186385/cristian-arango",
+      "text": "Matches",
+      "shortText": "Matches",
+      "isExternal": false,
+      "isPremium": false
+    },
+    {
+      "language": "en",
+      "rel": [
+        "stats",
+        "desktop",
+        "athlete"
+      ],
+      "href": "https://www.espn.com/soccer/player/stats/_/id/186385/cristian-arango",
+      "text": "Stats",
+      "shortText": "Stats",
+      "isExternal": false,
+      "isPremium": false
+    }
+  ],
+  "videos": [
+    {
+      "source": "espn",
+      "id": 46250618,
+      "headline": "San Jose Earthquakes vs. LAFC - Game Highlights",
+      "title": "San Jose Earthquakes vs. LAFC - Game Highlights",
+      "caption": "Watch the Game Highlights from San Jose Earthquakes vs. LAFC, 09/13/2025",
+      "description": "Watch the Game Highlights from San Jose Earthquakes vs. LAFC, 09/13/2025",
+      "premium": false,
+      "ad": {
+        "sport": "Soccer",
+        "bundle": "fcus_instantreplays"
+      },
+      "tracking": {
+        "sportName": "soccer",
+        "leagueName": "MLS",
+        "coverageType": "Final Game Highlight",
+        "trackingName": "SOC_One-Play (San Jose Earthquakes vs. LAFC - Game Highlights) 2025/09/14 ESHEET",
+        "trackingId": "dm_20250914_MLS_san_jose_earthquakes_vs_lafc_game_highlights"
+      },
+      "cerebroId": "68c635c8d799d767f6546d39",
+      "lastModified": "2025-09-14T03:28:01.000+00:00",
+      "originalPublishDate": "2025-09-14T03:26:01.000+00:00",
+      "timeRestrictions": {
+        "embargoDate": "2025-09-14T03:25:58.000+00:00",
+        "expirationDate": "2027-01-01T05:00:00.000+00:00"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "settop",
+          "tablet",
+          "handset",
+          "ipad",
+          "desktop"
+        ]
+      },
+      "syndicatable": true,
+      "duration": 74,
+      "categories": [
+        {
+          "id": 265988,
+          "uid": "s:600~a:218252",
+          "description": "Sergi Palencia",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 218252,
+          "athlete": {
+            "id": 218252,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/218252/sergi-palencia"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/218252/sergi-palencia"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 145507,
+          "uid": "s:600~l:770",
+          "description": "MLS",
+          "type": "league",
+          "sportId": 600,
+          "leagueId": 19,
+          "league": {
+            "id": 770,
+            "abbreviation": "MLS",
+            "links": {
+              "web": {},
+              "mobile": {}
+            }
+          }
+        },
+        {
+          "id": 237799,
+          "uid": "s:600~a:213304",
+          "description": "Denis Bouanga",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 213304,
+          "athlete": {
+            "id": 213304,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/213304/denis-bouanga"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/213304/denis-bouanga"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 192711,
+          "uid": "s:600~t:18966",
+          "description": "LAFC",
+          "type": "team",
+          "sportId": 600,
+          "team": {
+            "id": 18966,
+            "abbreviation": "LAFC",
+            "links": {
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/18966/lafc"
+                }
+              },
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/18966/lafc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 711821,
+          "description": "SC4U - Full Highlight",
+          "type": "editorialindicator"
+        },
+        {
+          "id": 142576,
+          "uid": "s:600~t:191",
+          "description": "San Jose Earthquakes",
+          "type": "team",
+          "sportId": 600,
+          "team": {
+            "id": 191,
+            "abbreviation": "SJ",
+            "links": {
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/191/san-jose-earthquakes"
+                }
+              },
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/191/san-jose-earthquakes"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 247345,
+          "uid": "s:600~a:73200",
+          "description": "Cristian Espinoza",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 73200,
+          "athlete": {
+            "id": 73200,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/73200/cristian-espinoza"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/73200/cristian-espinoza"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 278962,
+          "uid": "s:600~a:186385",
+          "description": "Cristian Arango",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 186385,
+          "athlete": {
+            "id": 186385,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/186385/cristian-arango"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/186385/cristian-arango"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 240308,
+          "uid": "s:600~a:149945",
+          "description": "Son Heung-Min",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 149945,
+          "athlete": {
+            "id": 149945,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/149945/son-heung-min"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/149945/son-heung-min"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 81497,
+          "uid": "s:600",
+          "description": "Soccer",
+          "type": "league",
+          "sportId": 600,
+          "leagueId": 600,
+          "league": {
+            "id": 600,
+            "links": {
+              "web": {},
+              "mobile": {}
+            }
+          }
+        },
+        {
+          "id": 470046,
+          "uid": "s:600~a:295339",
+          "description": "Preston Judd",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 295339,
+          "athlete": {
+            "id": 295339,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/295339/preston-judd"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/295339/preston-judd"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 711827,
+          "description": "3 Star Rating",
+          "type": "editorialindicator"
+        },
+        {
+          "id": 711824,
+          "description": "SC4U  - Eligible",
+          "type": "editorialindicator"
+        },
+        {
+          "uid": "s:600~l:770~e:727235",
+          "description": "LAFC @ San Jose Earthquakes",
+          "type": "event"
+        }
+      ],
+      "posterImages": {
+        "square": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6_1x1.jpg"
+        },
+        "default": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6_default.jpg",
+          "width": 576,
+          "height": 324
+        },
+        "firstFrame": {
+          "href": "https://cmp-espn.media.dssott.com/opp/img/espn/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6/thumb-1-w720-h406-f4.jpg"
+        },
+        "wide": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6_5x2.jpg"
+        },
+        "vertical": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6_9x16.jpg"
+        },
+        "full": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6.jpg"
+        },
+        "verticalFirstFrame": {
+          "href": "https://cmp-espn.media.dssott.com/opp/img/espn/9x16/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6/thumb-1-w406-h720-f4.jpg"
+        }
+      },
+      "images": [
+        {
+          "width": 576,
+          "height": 324,
+          "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6.jpg",
+          "name": "Poster Image"
+        }
+      ],
+      "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6.jpg",
+      "links": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showVideo?videoID=46250618&videoDSI=75aa3031f24d9"
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=46250618",
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=46250618"
+          }
+        },
+        "mobile": {
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/156c0ba3-5098-4389-82d1-2cda78e9cca4/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46250618",
+          "alert": {
+            "href": "https://m.espn.com/general/video/videoAlert?vid=46250618"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/156c0ba3-5098-4389-82d1-2cda78e9cca4/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46250618"
+          },
+          "source": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6.mp4"
+          },
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/156c0ba3-5098-4389-82d1-2cda78e9cca4/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=46250618"
+          }
+        },
+        "api": {
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/156c0ba3-5098-4389-82d1-2cda78e9cca4"
+          },
+          "self": {
+            "href": "https://content.core.api.espn.com/v1/video/clips/46250618"
+          }
+        },
+        "source": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6.mp4",
+          "flash": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6.mp4"
+          },
+          "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6.mp4"
+          },
+          "hds": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6.mp4"
+          },
+          "mezzanine": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6.mp4"
+          },
+          "HD": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6.mp4"
+          },
+          "HLS": {
+            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6/playlist.m3u8",
+            "HD": {
+              "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/wsc/2025/0914/306c1aea-7269-46cd-bdee-d1b882a19de6/306c1aea-7269-46cd-bdee-d1b882a19de6/playlist.m3u8"
+            }
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 45155974,
+      "headline": "San Jose Earthquakes vs. Inter Miami CF - Game Highlights",
+      "title": "San Jose Earthquakes vs. Inter Miami CF - Game Highlights",
+      "caption": "Watch the Game Highlights from San Jose Earthquakes vs. Inter Miami CF, 05/14/2025",
+      "description": "Watch the Game Highlights from San Jose Earthquakes vs. Inter Miami CF, 05/14/2025",
+      "premium": false,
+      "ad": {
+        "sport": "Soccer",
+        "bundle": "sportscenter"
+      },
+      "tracking": {
+        "sportName": "soccer",
+        "leagueName": "MLS",
+        "coverageType": "OnePlay",
+        "trackingName": "SOC_One-Play (San Jose Earthquakes vs. Inter Miami CF - Game Highlights) 2025/05/15 ESHEET",
+        "trackingId": "dm_20250515_MLS_san_jose_earthquakes_vs_inter_miami_cf_game_highlights"
+      },
+      "cerebroId": "682571b47ac03e4755c3f030",
+      "lastModified": "2025-05-15T13:33:38.000+00:00",
+      "originalPublishDate": "2025-05-15T04:46:44.000+00:00",
+      "timeRestrictions": {
+        "embargoDate": "2025-05-15T04:46:40.000+00:00",
+        "expirationDate": "2027-01-01T05:00:00.000+00:00"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "settop",
+          "tablet",
+          "handset",
+          "ipad",
+          "desktop"
+        ]
+      },
+      "syndicatable": true,
+      "duration": 115,
+      "categories": [
+        {
+          "id": 466951,
+          "uid": "s:600~a:315801",
+          "description": "Tadeo Allende",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 315801,
+          "athlete": {
+            "id": 315801,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/315801/tadeo-allende"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/315801/tadeo-allende"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 145507,
+          "uid": "s:600~l:770",
+          "description": "MLS",
+          "type": "league",
+          "sportId": 600,
+          "leagueId": 19,
+          "league": {
+            "id": 770,
+            "abbreviation": "MLS",
+            "links": {
+              "web": {},
+              "mobile": {}
+            }
+          }
+        },
+        {
+          "id": 142576,
+          "uid": "s:600~t:191",
+          "description": "San Jose Earthquakes",
+          "type": "team",
+          "sportId": 600,
+          "team": {
+            "id": 191,
+            "abbreviation": "SJ",
+            "links": {
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/191/san-jose-earthquakes"
+                }
+              },
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/191/san-jose-earthquakes"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 420195,
+          "uid": "s:600~t:20232",
+          "description": "Inter Miami CF",
+          "type": "team",
+          "sportId": 600,
+          "team": {
+            "id": 20232,
+            "abbreviation": "MIA",
+            "links": {
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/20232/inter-miami-cf"
+                }
+              },
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/20232/inter-miami-cf"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 278962,
+          "uid": "s:600~a:186385",
+          "description": "Cristian Arango",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 186385,
+          "athlete": {
+            "id": 186385,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/186385/cristian-arango"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/186385/cristian-arango"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 81497,
+          "uid": "s:600",
+          "description": "Soccer",
+          "type": "league",
+          "sportId": 600,
+          "leagueId": 600,
+          "league": {
+            "id": 600,
+            "links": {
+              "web": {},
+              "mobile": {}
+            }
+          }
+        },
+        {
+          "id": 238474,
+          "uid": "s:600~a:45843",
+          "description": "Lionel Messi",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 45843,
+          "athlete": {
+            "id": 45843,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/45843/lionel-messi"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/45843/lionel-messi"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 454650,
+          "uid": "s:600~a:310279",
+          "description": "Maximiliano Falcón",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 310279,
+          "athlete": {
+            "id": 310279,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/310279/maximiliano-falcon"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/310279/maximiliano-falcon"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 254351,
+          "uid": "s:600~a:249699",
+          "description": "Ian Harkes",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 249699,
+          "athlete": {
+            "id": 249699,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/249699/ian-harkes"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/249699/ian-harkes"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 661364,
+          "uid": "s:600~a:382638",
+          "description": "Beau Leroux",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 382638,
+          "athlete": {
+            "id": 382638,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/382638/beau-leroux"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/382638/beau-leroux"
+                }
+              }
+            }
+          }
+        },
+        {
+          "uid": "s:600~l:770~e:726989",
+          "description": "Inter Miami CF @ San Jose Earthquakes",
+          "type": "event"
+        }
+      ],
+      "posterImages": {
+        "square": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0515/ss_20250515_004645494_2859132/ss_20250515_004645494_2859132_1x1.jpg"
+        },
+        "default": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0515/ss_20250515_004645494_2859132/ss_20250515_004645494_2859132_default.jpg",
+          "width": 576,
+          "height": 324
+        },
+        "firstFrame": {
+          "href": "https://cmp-espn.media.dssott.com/opp/img/espn/2025/0515/ss_20250515_004645494_2859132/ss_20250515_004645494_2859132/thumb-1-w720-h406-f4.jpg"
+        },
+        "wide": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0515/ss_20250515_004645494_2859132/ss_20250515_004645494_2859132_5x2.jpg"
+        },
+        "full": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0515/ss_20250515_004645494_2859132/ss_20250515_004645494_2859132.jpg"
+        }
+      },
+      "images": [
+        {
+          "width": 576,
+          "height": 324,
+          "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0515/ss_20250515_004645494_2859132/ss_20250515_004645494_2859132.jpg",
+          "name": "Poster Image"
+        }
+      ],
+      "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0515/ss_20250515_004645494_2859132/ss_20250515_004645494_2859132.jpg",
+      "links": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showVideo?videoID=45155974&videoDSI=e252fb887fe2e"
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=45155974",
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=45155974"
+          }
+        },
+        "mobile": {
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d18083c9-38f3-4586-a84b-3daf2ef82c4d/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=45155974",
+          "alert": {
+            "href": "https://m.espn.com/general/video/videoAlert?vid=45155974"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d18083c9-38f3-4586-a84b-3daf2ef82c4d/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=45155974"
+          },
+          "source": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0515/ss_20250515_004645494_2859132/ss_20250515_004645494_2859132.mp4"
+          },
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/d18083c9-38f3-4586-a84b-3daf2ef82c4d/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=45155974"
+          }
+        },
+        "api": {
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/d18083c9-38f3-4586-a84b-3daf2ef82c4d"
+          },
+          "self": {
+            "href": "https://content.core.api.espn.com/v1/video/clips/45155974"
+          }
+        },
+        "source": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0515/ss_20250515_004645494_2859132/ss_20250515_004645494_2859132.mp4",
+          "flash": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0515/ss_20250515_004645494_2859132/ss_20250515_004645494_2859132.mp4"
+          },
+          "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0515/ss_20250515_004645494_2859132/ss_20250515_004645494_2859132.mp4"
+          },
+          "hds": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0515/ss_20250515_004645494_2859132/ss_20250515_004645494_2859132.mp4"
+          },
+          "mezzanine": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0515/ss_20250515_004645494_2859132/ss_20250515_004645494_2859132.mp4"
+          },
+          "HD": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0515/ss_20250515_004645494_2859132/ss_20250515_004645494_2859132.mp4"
+          },
+          "HLS": {
+            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/2025/0515/ss_20250515_004645494_2859132/ss_20250515_004645494_2859132/playlist.m3u8",
+            "HD": {
+              "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/2025/0515/ss_20250515_004645494_2859132/ss_20250515_004645494_2859132/playlist.m3u8"
+            }
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 44564430,
+      "headline": "San Jose Earthquakes vs. DC United - Game Highlights",
+      "title": "San Jose Earthquakes vs. DC United - Game Highlights",
+      "caption": "Watch the Game Highlights from San Jose Earthquakes vs. DC United, 04/06/2025",
+      "description": "Watch the Game Highlights from San Jose Earthquakes vs. DC United, 04/06/2025",
+      "premium": false,
+      "ad": {
+        "sport": "Soccer",
+        "bundle": "sportscenter"
+      },
+      "tracking": {
+        "sportName": "soccer",
+        "leagueName": "MLS",
+        "coverageType": "OnePlay",
+        "trackingName": "SOC_One-Play (San Jose Earthquakes vs. DC United - Game Highlights) 2025/04/06 ESHEET",
+        "trackingId": "dm_20250406_MLS_san_jose_earthquakes_vs_dc_united_game_highlights"
+      },
+      "cerebroId": "67f30afb5a2dd456b314fe10",
+      "lastModified": "2025-04-07T13:36:49.000+00:00",
+      "originalPublishDate": "2025-04-06T23:15:07.000+00:00",
+      "timeRestrictions": {
+        "embargoDate": "2025-04-06T23:15:05.000+00:00",
+        "expirationDate": "2027-01-01T05:00:00.000+00:00"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "settop",
+          "tablet",
+          "handset",
+          "ipad",
+          "desktop"
+        ]
+      },
+      "syndicatable": true,
+      "duration": 118,
+      "categories": [
+        {
+          "id": 238627,
+          "uid": "s:600~a:207638",
+          "description": "Amahl Pellegrino",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 207638,
+          "athlete": {
+            "id": 207638,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/207638/amahl-pellegrino"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/207638/amahl-pellegrino"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 145507,
+          "uid": "s:600~l:770",
+          "description": "MLS",
+          "type": "league",
+          "sportId": 600,
+          "leagueId": 19,
+          "league": {
+            "id": 770,
+            "abbreviation": "MLS",
+            "links": {
+              "web": {},
+              "mobile": {}
+            }
+          }
+        },
+        {
+          "id": 274245,
+          "uid": "s:600~a:106957",
+          "description": "Christian Benteke",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 106957,
+          "athlete": {
+            "id": 106957,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/106957/christian-benteke"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/106957/christian-benteke"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 142576,
+          "uid": "s:600~t:191",
+          "description": "San Jose Earthquakes",
+          "type": "team",
+          "sportId": 600,
+          "team": {
+            "id": 191,
+            "abbreviation": "SJ",
+            "links": {
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/191/san-jose-earthquakes"
+                }
+              },
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/191/san-jose-earthquakes"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 247345,
+          "uid": "s:600~a:73200",
+          "description": "Cristian Espinoza",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 73200,
+          "athlete": {
+            "id": 73200,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/73200/cristian-espinoza"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/73200/cristian-espinoza"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 142582,
+          "uid": "s:600~t:193",
+          "description": "D.C. United",
+          "type": "team",
+          "sportId": 600,
+          "team": {
+            "id": 193,
+            "abbreviation": "DC",
+            "links": {
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/193/dc-united"
+                }
+              },
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/193/dc-united"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 278962,
+          "uid": "s:600~a:186385",
+          "description": "Cristian Arango",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 186385,
+          "athlete": {
+            "id": 186385,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/186385/cristian-arango"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/186385/cristian-arango"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 81497,
+          "uid": "s:600",
+          "description": "Soccer",
+          "type": "league",
+          "sportId": 600,
+          "leagueId": 600,
+          "league": {
+            "id": 600,
+            "links": {
+              "web": {},
+              "mobile": {}
+            }
+          }
+        },
+        {
+          "id": 661364,
+          "uid": "s:600~a:382638",
+          "description": "Beau Leroux",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 382638,
+          "athlete": {
+            "id": 382638,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/382638/beau-leroux"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/382638/beau-leroux"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 233036,
+          "uid": "s:600~a:172688",
+          "description": "Josef Martínez",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 172688,
+          "athlete": {
+            "id": 172688,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/172688/josef-martinez"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/172688/josef-martinez"
+                }
+              }
+            }
+          }
+        },
+        {
+          "uid": "s:600~l:770~e:726902",
+          "description": "D.C. United @ San Jose Earthquakes",
+          "type": "event"
+        }
+      ],
+      "posterImages": {
+        "square": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0406/ss_20250406_191507787_2829899/ss_20250406_191507787_2829899_1x1.jpg"
+        },
+        "default": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0406/ss_20250406_191507787_2829899/ss_20250406_191507787_2829899_default.jpg",
+          "width": 576,
+          "height": 324
+        },
+        "firstFrame": {
+          "href": "https://cmp-espn.media.dssott.com/opp/img/espn/2025/0406/ss_20250406_191507787_2829899/ss_20250406_191507787_2829899/thumb-1-w720-h406-f4.jpg"
+        },
+        "wide": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0406/ss_20250406_191507787_2829899/ss_20250406_191507787_2829899_5x2.jpg"
+        },
+        "full": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0406/ss_20250406_191507787_2829899/ss_20250406_191507787_2829899.jpg"
+        }
+      },
+      "images": [
+        {
+          "width": 576,
+          "height": 324,
+          "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0406/ss_20250406_191507787_2829899/ss_20250406_191507787_2829899.jpg",
+          "name": "Poster Image"
+        }
+      ],
+      "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0406/ss_20250406_191507787_2829899/ss_20250406_191507787_2829899.jpg",
+      "links": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showVideo?videoID=44564430&videoDSI=446327e32139e"
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=44564430",
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=44564430"
+          }
+        },
+        "mobile": {
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/414201e6-6d37-465e-8906-44cd29fb0451/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44564430",
+          "alert": {
+            "href": "https://m.espn.com/general/video/videoAlert?vid=44564430"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/414201e6-6d37-465e-8906-44cd29fb0451/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44564430"
+          },
+          "source": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0406/ss_20250406_191507787_2829899/ss_20250406_191507787_2829899.mp4"
+          },
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/414201e6-6d37-465e-8906-44cd29fb0451/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44564430"
+          }
+        },
+        "api": {
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/414201e6-6d37-465e-8906-44cd29fb0451"
+          },
+          "self": {
+            "href": "https://content.core.api.espn.com/v1/video/clips/44564430"
+          }
+        },
+        "source": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0406/ss_20250406_191507787_2829899/ss_20250406_191507787_2829899.mp4",
+          "flash": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0406/ss_20250406_191507787_2829899/ss_20250406_191507787_2829899.mp4"
+          },
+          "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0406/ss_20250406_191507787_2829899/ss_20250406_191507787_2829899.mp4"
+          },
+          "hds": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0406/ss_20250406_191507787_2829899/ss_20250406_191507787_2829899.mp4"
+          },
+          "mezzanine": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0406/ss_20250406_191507787_2829899/ss_20250406_191507787_2829899.mp4"
+          },
+          "HD": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0406/ss_20250406_191507787_2829899/ss_20250406_191507787_2829899.mp4"
+          },
+          "HLS": {
+            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/2025/0406/ss_20250406_191507787_2829899/ss_20250406_191507787_2829899/playlist.m3u8",
+            "HD": {
+              "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/2025/0406/ss_20250406_191507787_2829899/ss_20250406_191507787_2829899/playlist.m3u8"
+            }
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 44563047,
+      "headline": "Cristian Arango scores a header for San Jose",
+      "title": "Cristian Arango scores a header for San Jose",
+      "caption": "Cristian Arango scores when his header off of a corner kick takes a deflection to give San Jose the early 1-0 lead vs. D.C United.",
+      "description": "Cristian Arango scores when his header off of a corner kick takes a deflection to give San Jose the early 1-0 lead vs. D.C United.",
+      "premium": false,
+      "ad": {
+        "sport": "Soccer",
+        "bundle": "sportscenter"
+      },
+      "tracking": {
+        "sportName": "soccer",
+        "leagueName": "MLS",
+        "coverageType": "OnePlay",
+        "trackingName": "SOC_One-Play (Cristian Arango scores a header for San Jose) 2025/04/06 ESHEET",
+        "trackingId": "dm_20250406_MLS_cristian_arango_scores_goal_for_san_jose_earthquakes"
+      },
+      "cerebroId": "67f2f0e35a2dd456b314f914",
+      "lastModified": "2025-04-06T23:58:06.000+00:00",
+      "originalPublishDate": "2025-04-06T21:23:48.000+00:00",
+      "timeRestrictions": {
+        "embargoDate": "2025-04-06T21:23:45.000+00:00",
+        "expirationDate": "2027-01-01T05:00:00.000+00:00"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "settop",
+          "tablet",
+          "handset",
+          "ipad",
+          "desktop"
+        ]
+      },
+      "syndicatable": true,
+      "duration": 24,
+      "categories": [
+        {
+          "id": 145507,
+          "uid": "s:600~l:770",
+          "description": "MLS",
+          "type": "league",
+          "sportId": 600,
+          "leagueId": 19,
+          "league": {
+            "id": 770,
+            "abbreviation": "MLS",
+            "links": {
+              "web": {},
+              "mobile": {}
+            }
+          }
+        },
+        {
+          "id": 142576,
+          "uid": "s:600~t:191",
+          "description": "San Jose Earthquakes",
+          "type": "team",
+          "sportId": 600,
+          "team": {
+            "id": 191,
+            "abbreviation": "SJ",
+            "links": {
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/191/san-jose-earthquakes"
+                }
+              },
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/191/san-jose-earthquakes"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 142582,
+          "uid": "s:600~t:193",
+          "description": "D.C. United",
+          "type": "team",
+          "sportId": 600,
+          "team": {
+            "id": 193,
+            "abbreviation": "DC",
+            "links": {
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/193/dc-united"
+                }
+              },
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/193/dc-united"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 278962,
+          "uid": "s:600~a:186385",
+          "description": "Cristian Arango",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 186385,
+          "athlete": {
+            "id": 186385,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/186385/cristian-arango"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/186385/cristian-arango"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 81497,
+          "uid": "s:600",
+          "description": "Soccer",
+          "type": "league",
+          "sportId": 600,
+          "leagueId": 600,
+          "league": {
+            "id": 600,
+            "links": {
+              "web": {},
+              "mobile": {}
+            }
+          }
+        },
+        {
+          "uid": "s:600~l:770~e:726902",
+          "description": "D.C. United @ San Jose Earthquakes",
+          "type": "event"
+        }
+      ],
+      "posterImages": {
+        "square": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0406/ss_20250406_172348672_2829681/ss_20250406_172348672_2829681_1x1.jpg"
+        },
+        "default": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0406/ss_20250406_172348672_2829681/ss_20250406_172348672_2829681_default.jpg",
+          "width": 576,
+          "height": 324
+        },
+        "firstFrame": {
+          "href": "https://cmp-espn.media.dssott.com/opp/img/espn/2025/0406/ss_20250406_172348672_2829681/ss_20250406_172348672_2829681/thumb-1-w720-h406-f4.jpg"
+        },
+        "wide": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0406/ss_20250406_172348672_2829681/ss_20250406_172348672_2829681_5x2.jpg"
+        },
+        "full": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0406/ss_20250406_172348672_2829681/ss_20250406_172348672_2829681.jpg"
+        }
+      },
+      "images": [
+        {
+          "width": 576,
+          "height": 324,
+          "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0406/ss_20250406_172348672_2829681/ss_20250406_172348672_2829681.jpg",
+          "name": "Poster Image"
+        }
+      ],
+      "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/2025/0406/ss_20250406_172348672_2829681/ss_20250406_172348672_2829681.jpg",
+      "links": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showVideo?videoID=44563047&videoDSI=ce900141a6cf0"
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=44563047",
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=44563047"
+          }
+        },
+        "mobile": {
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/320a0ced-87be-42dd-9ea2-65e757413878/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44563047",
+          "alert": {
+            "href": "https://m.espn.com/general/video/videoAlert?vid=44563047"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/320a0ced-87be-42dd-9ea2-65e757413878/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44563047"
+          },
+          "source": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0406/ss_20250406_172348672_2829681/ss_20250406_172348672_2829681.mp4"
+          },
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/320a0ced-87be-42dd-9ea2-65e757413878/asset?UMADPARAMreferer=https://www.espn.com/video/clip?id=44563047"
+          }
+        },
+        "api": {
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/320a0ced-87be-42dd-9ea2-65e757413878"
+          },
+          "self": {
+            "href": "https://content.core.api.espn.com/v1/video/clips/44563047"
+          }
+        },
+        "source": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0406/ss_20250406_172348672_2829681/ss_20250406_172348672_2829681.mp4",
+          "flash": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0406/ss_20250406_172348672_2829681/ss_20250406_172348672_2829681.mp4"
+          },
+          "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0406/ss_20250406_172348672_2829681/ss_20250406_172348672_2829681.mp4"
+          },
+          "hds": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0406/ss_20250406_172348672_2829681/ss_20250406_172348672_2829681.mp4"
+          },
+          "mezzanine": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0406/ss_20250406_172348672_2829681/ss_20250406_172348672_2829681.mp4"
+          },
+          "HD": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2025/0406/ss_20250406_172348672_2829681/ss_20250406_172348672_2829681.mp4"
+          },
+          "HLS": {
+            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/2025/0406/ss_20250406_172348672_2829681/ss_20250406_172348672_2829681/playlist.m3u8",
+            "HD": {
+              "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/2025/0406/ss_20250406_172348672_2829681/ss_20250406_172348672_2829681/playlist.m3u8"
+            }
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 40260422,
+      "headline": "Check out Cristian Arango's must-see goal from midfield",
+      "title": "Check out Cristian Arango's must-see goal from midfield",
+      "caption": "Check out Cristian Arango's must-see goal from midfield for Real Salt Lake.",
+      "description": "Check out Cristian Arango's must-see goal from midfield for Real Salt Lake.",
+      "premium": false,
+      "ad": {
+        "sport": "Soccer",
+        "bundle": "fcus_instantreplays"
+      },
+      "tracking": {
+        "sportName": "soccer",
+        "leagueName": "MLS",
+        "coverageType": "Final Game Highlight",
+        "trackingName": "SOC_One-Play (Check out Cristian Arango's must-see goal from midfield) 2024/06/02 ESHEET",
+        "trackingId": "dm_20240602_MLS_check_out_cristian_arangos_mustsee_goal_from_midfield"
+      },
+      "cerebroId": "665bedccb5cd2e6fcddb6e6f",
+      "lastModified": "2024-06-02T04:02:17.000+00:00",
+      "originalPublishDate": "2024-06-02T03:58:05.000+00:00",
+      "timeRestrictions": {
+        "embargoDate": "2024-06-02T03:58:02.000+00:00",
+        "expirationDate": "2027-01-01T05:00:00.000+00:00"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "settop",
+          "tablet",
+          "handset",
+          "ipad",
+          "desktop"
+        ]
+      },
+      "syndicatable": true,
+      "duration": 53,
+      "categories": [
+        {
+          "id": 145507,
+          "uid": "s:600~l:770",
+          "description": "MLS",
+          "type": "league",
+          "sportId": 600,
+          "leagueId": 19,
+          "league": {
+            "id": 770,
+            "abbreviation": "MLS",
+            "links": {
+              "web": {},
+              "mobile": {}
+            }
+          }
+        },
+        {
+          "id": 278962,
+          "uid": "s:600~a:186385",
+          "description": "Cristian Arango",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 186385,
+          "athlete": {
+            "id": 186385,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/186385/cristian-arango"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/186385/cristian-arango"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 81497,
+          "uid": "s:600",
+          "description": "Soccer",
+          "type": "league",
+          "sportId": 600,
+          "leagueId": 600,
+          "league": {
+            "id": 600,
+            "links": {
+              "web": {},
+              "mobile": {}
+            }
+          }
+        },
+        {
+          "id": 142574,
+          "uid": "s:600~t:4771",
+          "description": "Real Salt Lake",
+          "type": "team",
+          "sportId": 600,
+          "team": {
+            "id": 4771,
+            "abbreviation": "RSL",
+            "links": {
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/4771/real-salt-lake"
+                }
+              },
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/4771/real-salt-lake"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 466139,
+          "uid": "s:600~t:20906",
+          "description": "Austin FC",
+          "type": "team",
+          "sportId": 600,
+          "team": {
+            "id": 20906,
+            "abbreviation": "ATX",
+            "links": {
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/20906/austin-fc"
+                }
+              },
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/20906/austin-fc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "uid": "s:600~l:770~e:692836",
+          "description": "Austin FC @ Real Salt Lake",
+          "type": "event"
+        }
+      ],
+      "posterImages": {
+        "square": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2024/0601/ss_20240601_235805799_2582826/ss_20240601_235805799_2582826_1x1.jpg"
+        },
+        "default": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2024/0601/ss_20240601_235805799_2582826/ss_20240601_235805799_2582826_default.jpg",
+          "width": 576,
+          "height": 324
+        },
+        "firstFrame": {
+          "href": "https://cmp-espn.media.dssott.com/opp/img/espn/2024/0601/ss_20240601_235805799_2582826/ss_20240601_235805799_2582826/thumb-1-w720-h406-f4.jpg"
+        },
+        "wide": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2024/0601/ss_20240601_235805799_2582826/ss_20240601_235805799_2582826_5x2.jpg"
+        },
+        "full": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2024/0601/ss_20240601_235805799_2582826/ss_20240601_235805799_2582826.jpg"
+        }
+      },
+      "images": [
+        {
+          "width": 576,
+          "height": 324,
+          "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2024/0601/ss_20240601_235805799_2582826/ss_20240601_235805799_2582826.jpg",
+          "name": "Poster Image"
+        }
+      ],
+      "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/2024/0601/ss_20240601_235805799_2582826/ss_20240601_235805799_2582826.jpg",
+      "links": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showVideo?videoID=40260422&videoDSI=dc9b5492cbe3e"
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=40260422",
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=40260422"
+          }
+        },
+        "mobile": {
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/24212b24-472b-41d8-8c1b-556cb17597e2/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=40260422",
+          "alert": {
+            "href": "https://m.espn.com/general/video/videoAlert?vid=40260422"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/24212b24-472b-41d8-8c1b-556cb17597e2/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=40260422"
+          },
+          "source": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2024/0601/ss_20240601_235805799_2582826/ss_20240601_235805799_2582826.mp4"
+          },
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/24212b24-472b-41d8-8c1b-556cb17597e2/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=40260422"
+          }
+        },
+        "api": {
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/24212b24-472b-41d8-8c1b-556cb17597e2"
+          },
+          "self": {
+            "href": "https://content.core.api.espn.com/v1/video/clips/40260422"
+          }
+        },
+        "source": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2024/0601/ss_20240601_235805799_2582826/ss_20240601_235805799_2582826.mp4",
+          "flash": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2024/0601/ss_20240601_235805799_2582826/ss_20240601_235805799_2582826.mp4"
+          },
+          "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2024/0601/ss_20240601_235805799_2582826/ss_20240601_235805799_2582826.mp4"
+          },
+          "hds": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2024/0601/ss_20240601_235805799_2582826/ss_20240601_235805799_2582826.mp4"
+          },
+          "mezzanine": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2024/0601/ss_20240601_235805799_2582826/ss_20240601_235805799_2582826.mp4"
+          },
+          "HD": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2024/0601/ss_20240601_235805799_2582826/ss_20240601_235805799_2582826.mp4"
+          },
+          "HLS": {
+            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/2024/0601/ss_20240601_235805799_2582826/ss_20240601_235805799_2582826/playlist.m3u8",
+            "HD": {
+              "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/2024/0601/ss_20240601_235805799_2582826/ss_20240601_235805799_2582826/playlist.m3u8"
+            }
+          }
+        }
+      }
+    },
+    {
+      "source": "espn",
+      "id": 39641514,
+      "headline": "Real Salt Lake score 3 1st-half goals in heavy snow",
+      "title": "Real Salt Lake score 3 1st-half goals in heavy snow",
+      "caption": "Andres Gomez nets a brace and Cristian Arango adds a third goal in Real Salt Lake's win over LAFC.",
+      "description": "Andres Gomez nets a brace and Cristian Arango adds a third goal in Real Salt Lake's win over LAFC.",
+      "premium": false,
+      "ad": {
+        "sport": "Soccer",
+        "bundle": "fcus_highlights"
+      },
+      "tracking": {
+        "sportName": "soccer",
+        "leagueName": "MLS",
+        "coverageType": "Final Game Highlight",
+        "trackingName": "COM_SOC Highlight (Major League Soccer) (Real Salt Lake score 3 1st-half goals in heavy snow) 2024/03/02",
+        "trackingId": "dm_240302_mls_rsl_goals"
+      },
+      "cerebroId": "65e3c1f5ca84b748b5ab8364",
+      "lastModified": "2024-03-03T00:20:16.000+00:00",
+      "originalPublishDate": "2024-03-03T00:19:02.000+00:00",
+      "timeRestrictions": {
+        "embargoDate": "2024-03-03T00:16:40.000+00:00",
+        "expirationDate": "2027-01-01T00:16:40.000+00:00"
+      },
+      "deviceRestrictions": {
+        "type": "whitelist",
+        "devices": [
+          "settop",
+          "tablet",
+          "handset",
+          "ipad",
+          "desktop"
+        ]
+      },
+      "syndicatable": true,
+      "duration": 53,
+      "categories": [
+        {
+          "id": 145507,
+          "uid": "s:600~l:770",
+          "description": "MLS",
+          "type": "league",
+          "sportId": 600,
+          "leagueId": 19,
+          "league": {
+            "id": 770,
+            "abbreviation": "MLS",
+            "links": {
+              "web": {},
+              "mobile": {}
+            }
+          }
+        },
+        {
+          "id": 81497,
+          "uid": "s:600",
+          "description": "Soccer",
+          "type": "league",
+          "sportId": 600,
+          "leagueId": 600,
+          "league": {
+            "id": 600,
+            "links": {
+              "web": {},
+              "mobile": {}
+            }
+          }
+        },
+        {
+          "id": 192711,
+          "uid": "s:600~t:18966",
+          "description": "LAFC",
+          "type": "team",
+          "sportId": 600,
+          "team": {
+            "id": 18966,
+            "abbreviation": "LAFC",
+            "links": {
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/18966/lafc"
+                }
+              },
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/18966/lafc"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 142574,
+          "uid": "s:600~t:4771",
+          "description": "Real Salt Lake",
+          "type": "team",
+          "sportId": 600,
+          "team": {
+            "id": 4771,
+            "abbreviation": "RSL",
+            "links": {
+              "web": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/4771/real-salt-lake"
+                }
+              },
+              "mobile": {
+                "teams": {
+                  "href": "https://www.espn.com/soccer/club/_/id/4771/real-salt-lake"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 600963,
+          "uid": "s:600~a:187307",
+          "description": "Andres Gomez",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 187307,
+          "athlete": {
+            "id": 187307,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/187307/andres-gomez"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/187307/andres-gomez"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 278962,
+          "uid": "s:600~a:186385",
+          "description": "Cristian Arango",
+          "type": "athlete",
+          "sportId": 600,
+          "athleteId": 186385,
+          "athlete": {
+            "id": 186385,
+            "links": {
+              "web": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/186385/cristian-arango"
+                }
+              },
+              "mobile": {
+                "athletes": {
+                  "href": "https://www.espn.com/soccer/player/_/id/186385/cristian-arango"
+                }
+              }
+            }
+          }
+        },
+        {
+          "uid": "s:600~l:770~e:692621",
+          "description": "LAFC @ Real Salt Lake",
+          "type": "event"
+        }
+      ],
+      "posterImages": {
+        "square": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2024/0302/dm_240302_mls_rsl_goals/dm_240302_mls_rsl_goals_1x1.jpg"
+        },
+        "default": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2024/0302/dm_240302_mls_rsl_goals/dm_240302_mls_rsl_goals_default.jpg",
+          "width": 576,
+          "height": 324
+        },
+        "firstFrame": {
+          "href": "https://cmp-espn.media.dssott.com/opp/img/espn/2024/0302/dm_240302_mls_rsl_goals/dm_240302_mls_rsl_goals/thumb-1-w720-h406-f4.jpg"
+        },
+        "wide": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2024/0302/dm_240302_mls_rsl_goals/dm_240302_mls_rsl_goals_5x2.jpg"
+        },
+        "full": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/common/2024/0302/dm_240302_mls_rsl_goals/dm_240302_mls_rsl_goals.jpg"
+        }
+      },
+      "images": [
+        {
+          "width": 576,
+          "height": 324,
+          "url": "https://espnmedia-cdn.akamaized.net/espn/media/common/2024/0302/dm_240302_mls_rsl_goals/dm_240302_mls_rsl_goals.jpg",
+          "name": "Poster Image"
+        }
+      ],
+      "thumbnail": "https://espnmedia-cdn.akamaized.net/espn/media/common/2024/0302/dm_240302_mls_rsl_goals/dm_240302_mls_rsl_goals.jpg",
+      "links": {
+        "sportscenter": {
+          "href": "sportscenter://x-callback-url/showVideo?videoID=39641514&videoDSI=9ed9b364bf12c"
+        },
+        "web": {
+          "href": "https://www.espn.com/video/clip?id=39641514",
+          "self": {
+            "href": "https://www.espn.com/video/clip?id=39641514"
+          }
+        },
+        "mobile": {
+          "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8d92edb6-0004-4a27-911c-fa0f2031e8e6/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39641514",
+          "alert": {
+            "href": "https://m.espn.com/general/video/videoAlert?vid=39641514"
+          },
+          "progressiveDownload": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8d92edb6-0004-4a27-911c-fa0f2031e8e6/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39641514"
+          },
+          "source": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2024/0302/dm_240302_mls_rsl_goals/dm_240302_mls_rsl_goals.mp4"
+          },
+          "streaming": {
+            "href": "https://watch.auth.api.espn.com/video/auth/brightcove/8d92edb6-0004-4a27-911c-fa0f2031e8e6/asset?UMADPARAMreferer=http://www.espn.com/video/clip?id=39641514"
+          }
+        },
+        "api": {
+          "artwork": {
+            "href": "https://artwork.api.espn.com/artwork/collections/media/8d92edb6-0004-4a27-911c-fa0f2031e8e6"
+          },
+          "self": {
+            "href": "https://content.core.api.espn.com/v1/video/clips/39641514"
+          }
+        },
+        "source": {
+          "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2024/0302/dm_240302_mls_rsl_goals/dm_240302_mls_rsl_goals.mp4",
+          "flash": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2024/0302/dm_240302_mls_rsl_goals/dm_240302_mls_rsl_goals.mp4"
+          },
+          "full": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2024/0302/dm_240302_mls_rsl_goals/dm_240302_mls_rsl_goals.mp4"
+          },
+          "hds": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2024/0302/dm_240302_mls_rsl_goals/dm_240302_mls_rsl_goals.mp4"
+          },
+          "mezzanine": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2024/0302/dm_240302_mls_rsl_goals/dm_240302_mls_rsl_goals.mp4"
+          },
+          "HD": {
+            "href": "https://espnmedia-cdn.akamaized.net/espn/media/16x9/2024/0302/dm_240302_mls_rsl_goals/dm_240302_mls_rsl_goals.mp4"
+          },
+          "HLS": {
+            "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/2024/0302/dm_240302_mls_rsl_goals/dm_240302_mls_rsl_goals/playlist.m3u8",
+            "HD": {
+              "href": "https://cmp-espn.media.dssott.com/opp/hls/espn/2024/0302/dm_240302_mls_rsl_goals/dm_240302_mls_rsl_goals/playlist.m3u8"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

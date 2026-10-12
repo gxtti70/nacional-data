@@ -70,7 +70,7 @@ export default function SquadExplorer({ players, seasons }: { players: Player[];
       </div>
 
       {view === 'table' ? (
-        <DataTable columns={COLS} rows={rows} />
+        <DataTable columns={COLS} rows={rows} defaultSort="apps" />
       ) : (
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {rows.map((r) => (

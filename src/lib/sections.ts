@@ -5,6 +5,7 @@ export const SECTIONS = [
   { href: '/asistencias', n: 'IV', label: 'Asistencias' },
   { href: '/goleadores', n: 'V', label: 'Goleadores' },
   { href: '/traspasos', n: 'VI', label: 'Traspasos' },
-  { href: '/leyendas', n: 'VII', label: 'Leyendas' },
-  { href: '/galeria', n: 'VIII', label: 'Galería histórica' },
+  { href: '/partidos', n: 'VII', label: 'Partidos' },
+  { href: '/leyendas', n: 'VIII', label: 'Leyendas' },
+  { href: '/galeria', n: 'IX', label: 'Galería histórica' },
 ] as const

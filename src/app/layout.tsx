@@ -9,12 +9,13 @@ const num = Big_Shoulders_Display({ subsets: ['latin'], variable: '--font-num', 
 const sans = Instrument_Sans({ subsets: ['latin'], variable: '--font-sans', display: 'swap' })
 
 export const metadata: Metadata = {
-  title: 'Atlético Nacional · Archivo de datos',
+  metadataBase: process.env.NEXT_PUBLIC_SITE_URL ? new URL(process.env.NEXT_PUBLIC_SITE_URL) : undefined,
+  title: { default: 'Archivo de datos', template: '%s | Atlético Nacional' },
   description: 'Historia, plantilla, cifras y leyendas del Atlético Nacional.',
   icons: {
-    icon: '/logo.png',
-    shortcut: '/logo.png',
-    apple: '/logo.png', // ícono al guardar el sitio en el móvil
+    icon: '/logo.webp',
+    shortcut: '/logo.webp',
+    apple: '/logo.webp', // ícono al guardar el sitio en el móvil
   },
 }
 

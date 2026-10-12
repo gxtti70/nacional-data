@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from 'react'
 import Photo from '@/components/ui/Photo'
 import Sparkline from '@/components/charts/Sparkline'
 
-export type Column = { key: string; header: string; kind?: 'text' | 'num' | 'bar' | 'spark' | 'pos' | 'player' | 'action' }
+export type Column = { key: string; header: string; kind?: 'text' | 'num' | 'bar' | 'spark' | 'pos' | 'player' | 'action' | 'source' }
 type Row = Record<string, any>
 
 export default function DataTable({ columns, rows, defaultSort, rowKey = 'slug' }: {
@@ -61,6 +61,7 @@ export default function DataTable({ columns, rows, defaultSort, rowKey = 'slug' 
       Ver perfil →
     </Link>
   ) : null
+      case 'source': return r[c.key] ? <a href={r[c.key]} target="_blank" rel="noreferrer" className="whitespace-nowrap text-primary underline">{r.sourceLabel ?? 'Fuente'} ↗</a> : null
       default: return r[c.key]
     }
   }
