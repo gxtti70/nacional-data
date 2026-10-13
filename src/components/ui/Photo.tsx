@@ -29,7 +29,7 @@ export default function Photo({ src, alt, label, className = '' }: Props) {
       ref={imgRef}
       src={src}
       alt={alt}
-      loading="eager" priority
+      loading="eager"
       onError={() => setFailed(true)}
       className={`object-cover ${className}`}
     />

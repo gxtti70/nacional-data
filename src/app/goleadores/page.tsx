@@ -1,7 +1,6 @@
 import SectionHeader from '@/components/ui/SectionHeader'
 import SectionIntro from '@/components/ui/SectionIntro'
 import DataTable, { type Column } from '@/components/data-table/DataTable'
-import type { Player } from '@/data/players'
 import { allTimeScorers, currentScorers } from '@/data/scorers'
 import { pageMetadata } from '@/lib/metadata'
 
@@ -28,11 +27,11 @@ export default function GoleadoresPage() {
       <SectionIntro>Goleadores de temporada e históricos. Cada total histórico enlaza la fuente y el corte consultado.</SectionIntro>
       <div className="mb-12">
         <h2 className="mb-6 font-display text-2xl font-bold">Goleadores de la temporada actual</h2>
-        <DataTable<Player> columns={COLS} rows={currentScorers} defaultSort="goals" />
+        <DataTable columns={COLS} rows={currentScorers} defaultSort="goals" />
       </div>
       <div>
         <h2 className="mb-6 font-display text-2xl font-bold">Máximos goleadores históricos</h2>
-        <DataTable<Player> columns={HISTORICAL_COLS} rows={allTimeScorers} defaultSort="goals" />
+        <DataTable columns={HISTORICAL_COLS} rows={allTimeScorers} defaultSort="goals" />
       </div>
     </div>
   )
