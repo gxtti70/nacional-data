@@ -156,6 +156,7 @@ const parseDob = (dob) => {
 }
 
 const parseStats = (statistics = [], seen) => {
+  if (!statistics.length) return null
   const byName = new Map(statistics.map((s) => [s.name, s]))
   statistics.forEach((s) => seen.add(s.name))
   const starts = byName.get('starts-subIns')
@@ -346,12 +347,12 @@ for (const d of details) {
     merged.push({
       ...prev,
       number: d.jersey || prev.number,
-      position: overrides[prev.slug] ?? COARSE_POSITION[d.coarse] ?? 'MED',
+      position: overrides[prev.slug] ?? prev.position ?? COARSE_POSITION[d.coarse] ?? 'MED',
       birthDate: d.dob || prev.birthDate,
       nationality: d.nationality || prev.nationality,
     })
     if (!d.dob) report.noDob.push(d.name)
-    if (d.stats.apps + d.stats.goals + d.stats.assists === 0) report.noStats.push(d.name)
+    if (d.stats && d.stats.apps + d.stats.goals + d.stats.assists === 0) report.noStats.push(d.name)
     report.updated.push({ prev, d, strategy: match.strategy })
   } else if (ADD_NEW) {
     const slug = `jugador-${String(nextNum).padStart(2, '0')}`
@@ -397,7 +398,7 @@ const seasonStats = { ...prevStats }
 const keptStats = []
 for (const p of merged) {
   const m = details.find((d) => matchPlayer(d.name, existingByNorm)?.player.slug === p.slug)
-  if (m) seasonStats[p.slug] = m.stats
+  if (m?.stats) seasonStats[p.slug] = m.stats
   else if (prevStats[p.slug]) keptStats.push(p.name)
 }
 
@@ -412,7 +413,7 @@ for (const { prev, d, strategy } of report.updated) {
   if (prev.birthDate !== d.dob) diffs.push(`DOB ${prev.birthDate}→${d.dob}`)
   if (prev.nationality !== d.nationality) diffs.push(`nac ${prev.nationality}→${d.nationality}`)
   console.log(
-    `  ${prev.slug} ${d.name}  [${strategy}]${diffs.length ? '  (' + diffs.join(', ') + ')' : ''}  [${d.stats.apps}P ${d.stats.goals}G ${d.stats.assists}A]`,
+    `  ${prev.slug} ${d.name}  [${strategy}]${diffs.length ? '  (' + diffs.join(', ') + ')' : ''}  [${d.stats ? `${d.stats.apps}P ${d.stats.goals}G ${d.stats.assists}A` : 'stats no disponibles'}]`,
   )
 }
 if (report.added.length) {

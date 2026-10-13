@@ -2,14 +2,23 @@
   "name": "nacional-portal",
   "version": "0.1.0",
   "private": true,
-  "scripts": { "dev": "next dev", "build": "next build", "start": "next start", "sync": "node scripts/sync-espn.mjs", "sync:espn": "node scripts/sync-espn.mjs --fixtures", "sync:wikimedia": "node scripts/sync-wikimedia.mjs", "test": "vitest run --maxWorkers=1 --minWorkers=1" },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "sync": "node scripts/sync-espn.mjs",
+    "sync:espn": "node scripts/sync-espn.mjs --fixtures",
+    "sync:wikimedia": "node scripts/sync-wikimedia.mjs",
+    "test": "vitest run --maxWorkers=1 --minWorkers=1"
+  },
   "dependencies": {
-    "next": "14.2.15",
+    "next": "^14.2.35",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "zod": "^3.23.8"
   },
   "devDependencies": {
+  "engines": {"node": ">=20.11.0"},
     "@types/node": "^20.14.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",

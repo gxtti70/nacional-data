@@ -14,12 +14,12 @@ export default function ThemeToggle() {
     const x = r.left + r.width / 2
     const y = r.top + r.height / 2
     const rad = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y))
-    doc.startViewTransition(apply).ready.then(() =>
+    doc.startViewTransition(apply).ready.then(() => {
       root.animate(
         { clipPath: [`circle(0 at ${x}px ${y}px)`, `circle(${rad}px at ${x}px ${y}px)`] },
         { duration: 600, easing: 'ease-in', pseudoElement: '::view-transition-new(root)' },
-      ),
-    )
+      )
+    }).catch(() => {})
   }
   return (
     <button

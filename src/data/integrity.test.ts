@@ -24,6 +24,12 @@ describe('integridad del archivo de datos', () => {
     expect(new Set(numbers).size).toBe(numbers.length)
   })
 
+  it('minutos coherentes con partidos', () => {
+    for (const season of seasons)
+      for (const [slug, st] of Object.entries(season.stats))
+        expect(st.minutes, `${season.id}: ${slug}`).toBeLessThanOrEqual(st.apps * 120)
+  })
+
   it('tiene archivo local para cada foto declarada', () => {
     for (const player of players) expect(fileExists(playerPhoto(player)), player.slug).toBe(true)
     for (const item of gallery) if (item.src) expect(fileExists(item.src), item.id).toBe(true)

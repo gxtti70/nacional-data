@@ -29,7 +29,7 @@ export default function Home() {
     { year: 2016, label: 'Libertadores', gold: true },
   ]}
 />
-        <span className="mb-3 inline-block border border-primary px-3 py-1 font-num text-sm tracking-wider text-primary">ARCHIVO OFICIAL DE DATOS</span>
+        
         <h1 className="font-display text-5xl font-bold leading-tight sm:text-7xl">
           Atlético <span className="text-primary">Nacional</span>
         </h1>
@@ -45,7 +45,7 @@ export default function Home() {
       </div>
 
       <div className="mb-16">
-        <SectionHeader n="I" title="Palmarés destacado" />
+        <SectionHeader as="h2" n="I" title="Palmarés destacado" />
         <SectionIntro>Títulos oficiales del club en competencias nacionales e internacionales.</SectionIntro>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
           {honours.map((h) => (
@@ -66,11 +66,11 @@ export default function Home() {
           <Link href="/galeria" className="text-sm font-semibold text-primary hover:underline">Ver archivo completo →</Link>
         </div>
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
-          {gallery.slice(0, 3).map((item) => (
+          {gallery.slice(-3).map((item) => (
             <div key={item.id} className="ficha overflow-hidden">
               <Photo src={item.src} alt={item.title} label={String(item.year)} className="h-48 w-full" />
               <div className="p-4">
-                <span className="font-num text-xs text-primary">{item.year}</span>
+                <span className="font-num text-xs text-primary">{item.year ?? 'S/F'}</span>
                 <h3 className="font-display text-lg font-bold">{item.title}</h3>
                 <p className="mt-1 text-sm text-mute">{item.caption}</p>
               </div>

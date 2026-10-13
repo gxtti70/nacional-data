@@ -4,7 +4,7 @@ import './globals.css'
 import TopNav from '@/components/layout/TopNav'
 import Footer from '@/components/layout/Footer'
 
-const display = Bodoni_Moda({ subsets: ['latin'], style: ['normal', 'italic'], variable: '--font-display', display: 'swap' })
+const display = Bodoni_Moda({ subsets: ['latin'], style: ['normal', 'italic'], variable: '--font-display', display: 'swap', adjustFontFallback: false })
 const num = Big_Shoulders_Display({ subsets: ['latin'], variable: '--font-num', display: 'swap' })
 const sans = Instrument_Sans({ subsets: ['latin'], variable: '--font-sans', display: 'swap' })
 
@@ -23,7 +23,7 @@ const themeScript = `try{var t=localStorage.getItem('n-theme')||(matchMedia('(pr
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="es" className={`${display.variable} ${num.variable} ${sans.variable}`} suppressHydrationWarning>
+    <html lang="es-CO" className={`${display.variable} ${num.variable} ${sans.variable}`} suppressHydrationWarning>
       <head><script dangerouslySetInnerHTML={{ __html: themeScript }} /></head>
       <body className="font-sans text-base leading-relaxed">
         <TopNav />

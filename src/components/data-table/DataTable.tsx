@@ -5,7 +5,7 @@ import Photo from '@/components/ui/Photo'
 import Sparkline from '@/components/charts/Sparkline'
 
 export type Column = { key: string; header: string; kind?: 'text' | 'num' | 'bar' | 'spark' | 'pos' | 'player' | 'action' | 'source' }
-type Row = Record<string, any>
+type Row<T = any> = Record<string, T>
 
 export default function DataTable({ columns, rows, defaultSort, rowKey = 'slug' }: {
   columns: Column[]; rows: Row[]; defaultSort: string; rowKey?: string
@@ -28,7 +28,7 @@ export default function DataTable({ columns, rows, defaultSort, rowKey = 'slug' 
     if (!tr) return
     if (e.key === 'ArrowDown') { (tr.nextElementSibling as HTMLElement | null)?.focus(); e.preventDefault() }
     if (e.key === 'ArrowUp') { (tr.previousElementSibling as HTMLElement | null)?.focus(); e.preventDefault() }
-    if (e.key === 'Enter') tr.querySelector('a')?.click()
+    if (e.key === 'Enter' && e.target === tr) tr.querySelector('a')?.click()
   }
 
   const cell = (c: Column, r: Row) => {

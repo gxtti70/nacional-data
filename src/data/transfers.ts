@@ -17,7 +17,7 @@ export const arrivals: Transfer[] = [
   { player: 'César Haydar', club: 'Kawasaki Frontale', window: 'Jul 2026', type: 'Fichaje' },
   { player: 'Néider Parra', club: 'Atlético Nacional Sub-20', window: 'Feb 2026', type: 'Cantera' },
   { player: 'Cristian Arango', club: 'San Jose Earthquakes', window: 'Ene 2026', type: 'Cesión', fee: '€0,4 M' },
-  { player: 'Alfredo Morelos', club: 'Santos FC', window: 'Ene 2026', type: 'Libre', note: 'Compra definitiva: el club lo firmó por tres temporadas adicionales.' },
+  { player: 'Alfredo Morelos', club: 'Santos FC', window: 'Ene 2026', type: 'Fichaje', note: 'Compra definitiva: el club lo firmó por tres temporadas adicionales.' },
   { player: 'Eduard Bello', club: 'Barcelona SC', window: 'Ene 2026', type: 'Libre' },
   { player: 'Kevin Cataño', club: 'Real Cundinamarca', window: 'Ene 2026', type: 'Fichaje', fee: '€0,5 M' },
   { player: 'Nicolás Rodríguez', club: 'Orlando City', window: 'Ene 2026', type: 'Cesión' },
@@ -25,7 +25,7 @@ export const arrivals: Transfer[] = [
 ]
 
 export const departures: Transfer[] = [
-  { player: 'S. García', club: 'Rio Ave', window: 'Sep 2026', type: 'Fichaje', fee: '€2,3 M' },
+  { player: 'Sergio García', club: 'Rio Ave', window: 'Sep 2026', type: 'Fichaje', fee: '€2,3 M' },
   { player: 'Eduard Bello', club: 'Deportivo Cali', window: 'Ago 2026', type: 'Cesión' },
   { player: 'David Ospina', club: 'Atlante FC', window: 'Jul 2026', type: 'Libre' },
   { player: 'Kevin Cataño', club: 'Inter Bogotá', window: 'Jul 2026', type: 'Cesión' },

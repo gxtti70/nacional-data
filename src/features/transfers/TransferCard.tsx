@@ -18,19 +18,20 @@ const HOW_OUT: Record<Transfer['type'], string> = {
 export default function TransferCard({ t, dir }: { t: Transfer; dir: 'in' | 'out' }) {
   const id = useId()
   const cardRef = useRef<HTMLDivElement>(null)
-const tipRef = useRef<HTMLDivElement>(null)
-const [up, setUp] = useState(false)
+  const tipRef = useRef<HTMLDivElement>(null)
+  const [below, setBelow] = useState(false)
+  const [open, setOpen] = useState(false)
 
-const place = () => {
-  const card = cardRef.current
-  const tip = tipRef.current
-  if (!card || !tip) return
-  const r = card.getBoundingClientRect()
-  const need = tip.offsetHeight + 16
-  const below = window.innerHeight - r.bottom
-  const above = r.top - 72 // alto aproximado del header sticky
-  setUp(below < need && above > below)
-}
+  const place = () => {
+    const card = cardRef.current
+    const tip = tipRef.current
+    if (!card || !tip) return
+    const r = card.getBoundingClientRect()
+    const need = tip.offsetHeight + 16
+    const roomAbove = r.top - 72
+    const roomBelow = window.innerHeight - r.bottom
+    setBelow(roomAbove < need && roomBelow > roomAbove)
+  }
   const arriving = dir === 'in'
   const label = `font-num text-xs font-extrabold uppercase tracking-wider ${arriving ? 'text-tipin' : 'text-tipout'}`
 
@@ -50,16 +51,20 @@ const place = () => {
       <span className={`shrink-0 border px-2.5 py-1 font-num text-xs font-extrabold ${arriving ? 'border-primary text-primary' : 'border-line text-mute'}`}>
         {t.window}
       </span>
+      <button type="button" className="shrink-0 border border-line px-2 py-1 text-xs sm:hidden" aria-label="Ver detalles del traspaso" aria-expanded={open} aria-controls={id} onClick={() => { place(); setOpen((value) => !value) }}>
+        ⓘ
+      </button>
 
 <div
+  ref={tipRef}
   id={id}
   role="tooltip"
-  className={`pointer-events-none absolute inset-x-0 bottom-full z-30 mb-3 -translate-y-1 border-l-4 bg-tip p-4 text-sm text-tipink opacity-0 shadow-2xl transition-all duration-200 group-hover:translate-y-0 group-hover:opacity-100 group-focus-within:translate-y-0 group-focus-within:opacity-100 ${arriving ? 'border-l-tipin' : 'border-l-tipout'}`}
+  className={`pointer-events-none absolute inset-x-0 z-30 border-l-4 bg-tip p-4 text-sm text-tipink shadow-2xl transition-all duration-200 ${below ? 'top-full mt-3 translate-y-1' : 'bottom-full mb-3 -translate-y-1'} ${open ? 'translate-y-0 opacity-100' : 'opacity-0'} sm:group-hover:translate-y-0 sm:group-hover:opacity-100 sm:group-focus-within:translate-y-0 sm:group-focus-within:opacity-100 ${arriving ? 'border-l-tipin' : 'border-l-tipout'}`}
   style={{ backgroundColor: 'var(--tip-bg)', color: 'var(--tip-ink)' }}
 >
   <span 
     aria-hidden 
-    className="absolute -bottom-1.5 left-8 h-3 w-3 rotate-45 bg-tip shadow-sm"
+    className={`absolute ${below ? '-top-1.5' : '-bottom-1.5'} left-8 h-3 w-3 rotate-45 bg-tip shadow-sm`}
     style={{ backgroundColor: 'var(--tip-bg)' }}
   />
   <p className={label}>{arriving ? 'Cómo llega' : 'Cómo se fue'}</p>

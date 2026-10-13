@@ -10,11 +10,11 @@ export default function AsistenciasPage() {
     <div>
       <SectionHeader n="IV" title="Asistencia al estadio" />
       <SectionIntro>Promedio de espectadores por temporada, en miles, en el Estadio Atanasio Girardot.</SectionIntro>
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-3">
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-3 gap-3 sm:gap-6">
         {attendance.map((item) => (
-          <div key={item.season} className="ficha p-6">
+          <div key={item.season} className={item.avg ? 'ficha p-6' : 'ficha p-6 bg-surface2 text-center'}> 
             <span className="font-num text-xs text-mute">TEMPORADA {item.season}</span>
-            <div className="mt-2 font-num text-6xl font-extrabold text-primary">{item.avg}k</div>
+            <div className="mt-2 font-num text-6xl font-extrabold text-primary">{item.avg ? item.avg + 'k' : 'Pendiente'}</div>
             <p className="mt-1 text-sm text-mute">Espectadores promedio por encuentro</p>
           </div>
         ))}
