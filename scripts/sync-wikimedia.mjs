@@ -15,9 +15,9 @@ const galleryTargets = [
   ['1954-primer-titulo', 'Atlético Nacional 1954 campeón', /1954|nacional/i],
   ['1989-libertadores', 'Atlético Nacional 1989 Copa Libertadores campeón', /1989|nacional/i],
   ['1990-recopa', 'Atlético Nacional 1990 Recopa Sudamericana', /1990|nacional|recopa/i],
-  ['2016-libertadores', 'Atlético Nacional 2016 Copa Libertadores campeón', /2016|nacional/i],
-  ['estadio', 'Estadio Atanasio Girardot Medellín', /atanasio|girardot/i],
 ]
+// Nota: 'estadio' y las fotos de la Libertadores 2016 (2016-libertadores-1/2/3)
+// son fotos propias y viven directamente en src/data/gallery.ts. No se sincronizan desde Wikimedia.
 const legendTargets = [
   ['andres-escobar', 'Andrés Escobar footballer', /escobar/i],
   ['rene-higuita', 'René Higuita footballer', /higuita/i],

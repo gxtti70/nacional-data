@@ -1,15 +1,5 @@
 {
-  "gallery": {
-    "estadio": {
-      "src": "/gallery/estadio.jpg",
-      "title": "Atanasio Girardot(2)-Busto-Medellin.JPG",
-      "author": "SajoR",
-      "license": "Public domain",
-      "licenseUrl": "",
-      "pageUrl": "https://commons.wikimedia.org/wiki/File:Atanasio_Girardot(2)-Busto-Medellin.JPG",
-      "credit": "SajoR · Public domain · Wikimedia Commons"
-    }
-  },
+  "gallery": {},
   "legends": {
     "rene-higuita": {
       "src": "/legends/rene-higuita.jpg",
