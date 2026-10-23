@@ -2,7 +2,8 @@ name: Weekly data sync
 
 on:
   schedule:
-    - cron: '17 9 * * 1'
+    # Lunes y jueves, 09:17 UTC (04:17 en Colombia).
+    - cron: '17 9 * * 1,4'
   workflow_dispatch:
 
 permissions:
@@ -22,10 +23,8 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      - name: Sync roster and season stats
+      - name: Sync roster, season stats and fixtures
         run: npm run sync -- --refresh
-      - name: Sync fixtures and results
-        run: npm run sync:espn -- --refresh
       - name: Check data integrity
         run: npm test
       - name: Commit synchronized data
@@ -34,6 +33,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/data/players.ts src/data/seasons.ts src/data/raw/espn src/data/fixtures.ts
           if ! git diff --cached --quiet; then
-            git commit -m "chore(data): weekly ESPN sync"
+            git commit -m "chore(data): sincronización ESPN"
             git push
           fi

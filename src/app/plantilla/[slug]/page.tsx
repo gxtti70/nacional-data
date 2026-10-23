@@ -35,6 +35,11 @@ export default function PlayerDetailPage({ params }: { params: { slug: string } 
   // Check if there's no season data
   const hasNoSeasonData = playerSeasons.length === 0
 
+  const meta = [
+    player.nationality && `Nacionalidad: ${player.nationality}`,
+    player.birthDate && (() => { const [d, m, a] = player.birthDate.split('-'); return `Nacimiento: ${d}/${m}/${a}` })(),
+  ].filter(Boolean).join(' · ')
+
   return (
     <div>
       <Link href="/plantilla" className="mb-6 inline-block text-sm font-semibold text-primary hover:underline">← Volver a plantilla</Link>
@@ -54,7 +59,7 @@ export default function PlayerDetailPage({ params }: { params: { slug: string } 
             <span className="font-num text-xl font-bold text-primary">#{player.number}</span>
           </div>
           <h1 className="mt-2 font-display text-4xl font-bold">{player.name}</h1>
-          <p className="mt-1 text-sm text-mute">Nacionalidad: {player.nationality} · Nacimiento: {(() => { const [d, m, a] = player.birthDate.split('-'); return d + '/' + m + '/' + a; })()}</p>
+          {meta && <p className="mt-1 text-sm text-mute">{meta}</p>}
           {hasNoSeasonData && <p className="mt-2 text-muted-foreground">No hay datos de temporada disponibles</p>}
         </div>
       </div>
@@ -81,7 +86,14 @@ export default function PlayerDetailPage({ params }: { params: { slug: string } 
                 <tr key={s.id} className="trow">
                   <td className="border-b border-line px-4 py-3 font-bold">{s.label}</td>
                   <td className="border-b border-line px-4 py-3 font-num">{s.apps}</td>
-                  <td className="border-b border-line px-4 py-3 font-num text-primary font-bold">{s.goals}</td>
+                  <td className="border-b border-line px-4 py-3 font-num text-primary font-bold">
+                    {s.goals}
+                    {(s.leagueGoals != null || s.cupGoals != null || s.continentalGoals != null) && (
+                      <span className="mt-0.5 block text-xs font-normal text-mute">
+                        {s.leagueGoals ?? 0} L · {s.cupGoals ?? 0} C · {s.continentalGoals ?? 0} S
+                      </span>
+                    )}
+                  </td>
                   <td className="border-b border-line px-4 py-3 font-num">{s.assists}</td>
                   {!hideMinutes && <td className="border-b border-line px-4 py-3 font-num">{s.minutes}</td>}
                 </tr>
@@ -89,6 +101,12 @@ export default function PlayerDetailPage({ params }: { params: { slug: string } 
             </tbody>
           </table>
         </div>
+      )}
+      {!hasNoSeasonData && (
+        <p className="mt-3 text-sm text-mute">
+          Goles y asistencias incluyen Liga BetPlay, Copa Colombia y Sudamericana. Partidos y minutos corresponden solo a
+          Liga BetPlay.
+        </p>
       )}
 
       <nav aria-label="Navegación entre jugadores" className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2">

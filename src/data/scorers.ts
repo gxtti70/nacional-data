@@ -11,6 +11,7 @@ export const allTimeScorers = [
   { slug: 'historico-e', name: 'Luis Humberto Álvarez', position: 'DEL', goals: 99, sourceLabel: 'Atlético Nacional · 2022', source: 'https://www.atlnacional.com.co/wp-content/uploads/2022/05/140-a-la-cancha-vs-CALDAS.pdf' },
 ]
 
+// Goleadores de la temporada en la plantilla publicada (total de todas las competencias).
 export const currentScorers = players
   .filter((p) => currentSeason.stats[p.slug])
   .map((p) => ({
@@ -20,3 +21,6 @@ export const currentScorers = players
     href: `/plantilla/${p.slug}`,
   }))
   .sort((a, b) => b.goals - a.goals)
+
+// Anotadores que ya no tienen perfil en la plantilla publicada.
+export const otherScorers = currentSeason.others ?? []

@@ -2,7 +2,7 @@ import { existsSync } from 'node:fs'
 import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
 import { players, playerPhoto } from './players'
-import { seasons } from './seasons'
+import { currentSeason, seasons } from './seasons'
 import { gallery } from './gallery'
 import { legends } from './legends'
 import attribution from './commons-attribution.json'
@@ -28,6 +28,40 @@ describe('integridad del archivo de datos', () => {
     for (const season of seasons)
       for (const [slug, st] of Object.entries(season.stats))
         expect(st.minutes, `${season.id}: ${slug}`).toBeLessThanOrEqual(st.apps * 120)
+  })
+
+  it('el desglose por competencia suma el total de goles', () => {
+    for (const season of seasons) {
+      for (const [slug, st] of Object.entries(season.stats)) {
+        if (st.leagueGoals == null && st.cupGoals == null && st.continentalGoals == null) continue
+        const split = (st.leagueGoals ?? 0) + (st.cupGoals ?? 0) + (st.continentalGoals ?? 0)
+        expect(split, `${season.id}: ${slug}`).toBe(st.goals)
+      }
+    }
+  })
+
+  it('los goleadores sin ficha se documentan con goles positivos', () => {
+    for (const scorer of currentSeason.others ?? []) {
+      expect(Number.isInteger(scorer.goals), scorer.name).toBe(true)
+      expect(scorer.goals, scorer.name).toBeGreaterThan(0)
+    }
+  })
+
+  it('no pierde goles frente a la auditoría de ESPN', () => {
+    // Línea base tras la auditoría del 23-10-2026: 85 goles = 75 liga + 9 copa + 1 Sudamericana.
+    // Se usan cotas inferiores para que el cron pueda sumar partidos nuevos sin romper el test;
+    // la igualdad total = liga + copa + continental se valida aquí y en cada jugador.
+    const squadGoals = Object.values(currentSeason.stats).reduce((total, st) => total + st.goals, 0)
+    const otherGoals = (currentSeason.others ?? []).reduce((total, scorer) => total + scorer.goals, 0)
+    const squadLeagueGoals = Object.values(currentSeason.stats).reduce((total, st) => total + (st.leagueGoals ?? 0), 0)
+    const cupGoals = Object.values(currentSeason.stats).reduce((total, st) => total + (st.cupGoals ?? 0), 0)
+    const continentalGoals = Object.values(currentSeason.stats).reduce((total, st) => total + (st.continentalGoals ?? 0), 0)
+
+    expect(squadGoals + otherGoals).toBeGreaterThanOrEqual(85)
+    expect(squadLeagueGoals + otherGoals).toBeGreaterThanOrEqual(75)
+    expect(cupGoals).toBeGreaterThanOrEqual(9)
+    expect(continentalGoals).toBeGreaterThanOrEqual(1)
+    expect(squadGoals).toBe(squadLeagueGoals + cupGoals + continentalGoals)
   })
 
   it('tiene archivo local para cada foto declarada', () => {

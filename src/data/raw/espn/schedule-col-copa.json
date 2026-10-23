@@ -1,0 +1,48 @@
+[
+  {
+    "id": "401929277",
+    "date": "2026-10-15T01:30Z",
+    "competition": "Copa Colombia",
+    "home": "Atlético Nacional",
+    "away": "Independiente Medellín",
+    "homeScore": 3,
+    "awayScore": 2,
+    "status": "post",
+    "statusDetail": "FT"
+  },
+  {
+    "id": "401873644",
+    "date": "2026-09-08T01:15Z",
+    "competition": "Copa Colombia",
+    "home": "Atlético Nacional",
+    "away": "Deportivo Cali",
+    "homeScore": 3,
+    "awayScore": 0,
+    "status": "post",
+    "statusDetail": "FT"
+  },
+  {
+    "id": "401871779",
+    "date": "2026-07-29T01:30Z",
+    "competition": "Copa Colombia",
+    "stage": "Vuelta",
+    "home": "Tigres FC",
+    "away": "Atlético Nacional",
+    "homeScore": 0,
+    "awayScore": 2,
+    "status": "post",
+    "statusDetail": "FT"
+  },
+  {
+    "id": "401871506",
+    "date": "2026-07-21T21:00Z",
+    "competition": "Copa Colombia",
+    "stage": "Ida",
+    "home": "Atlético Nacional",
+    "away": "Tigres FC",
+    "homeScore": 2,
+    "awayScore": 0,
+    "status": "post",
+    "statusDetail": "FT"
+  }
+]

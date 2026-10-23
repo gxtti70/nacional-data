@@ -23,7 +23,7 @@ export default function PartidosPage() {
                 <p className="mt-1 text-xs font-semibold text-primary">{match.statusDetail || match.status}</p>
               </div>
               <div><p className="font-display text-lg font-bold">{match.away}</p><p className="text-xs text-mute">Visitante</p></div>
-              <p className="text-sm text-mute sm:col-span-3">{dateFormat.format(new Date(match.date))} · {match.competition}</p>
+              <p className="text-sm text-mute sm:col-span-3">{dateFormat.format(new Date(match.date))} · {match.competition}{match.stage ? ` · ${match.stage}` : ''}</p>
             </article>
           ))}
         </div>
