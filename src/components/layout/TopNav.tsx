@@ -8,11 +8,14 @@ export default function TopNav() {
   const path = usePathname()
   return (
     <header className="sticky top-0 z-20 border-b border-line bg-bg">
-      <div className="mx-auto flex max-w-6xl items-center gap-4 px-4 py-3 sm:px-6">
-        <Link href="/" className="shrink-0 whitespace-nowrap font-display text-xl font-bold">
-          Atlético <span className="text-primary">Nacional</span>
-        </Link>
-        <nav aria-label="Secciones" className="flex min-w-0 flex-1 touch-pan-x gap-1 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+      <div className="mx-auto max-w-6xl px-4 py-3 sm:px-6">
+        <div className="flex items-center justify-between gap-4">
+          <Link href="/" className="shrink-0 whitespace-nowrap font-display text-xl font-bold">
+            Atlético <span className="text-primary">Nacional</span>
+          </Link>
+          <ThemeToggle />
+        </div>
+        <nav aria-label="Secciones" className="mt-2 flex flex-wrap items-center gap-x-1 border-t border-line pt-1">
           {SECTIONS.map((s) => {
             const active = path === s.href || path.startsWith(s.href + '/')
             return (
@@ -28,7 +31,6 @@ export default function TopNav() {
             )
           })}
         </nav>
-        <ThemeToggle />
       </div>
     </header>
   )
