@@ -1,5 +1,16 @@
 [
   {
+    "id": "401878052",
+    "date": "2026-10-25T23:10Z",
+    "competition": "Liga BetPlay",
+    "home": "Atlético Nacional",
+    "away": "Independiente Medellín",
+    "homeScore": 2,
+    "awayScore": 1,
+    "status": "post",
+    "statusDetail": "FT"
+  },
+  {
     "id": "401877877",
     "date": "2026-10-23T01:00Z",
     "competition": "Liga BetPlay",
@@ -157,6 +168,7 @@
     "id": "401873659",
     "date": "2026-06-08T22:00Z",
     "competition": "Liga BetPlay",
+    "stage": "Vuelta",
     "home": "Atlético Nacional",
     "away": "Atlético Junior",
     "homeScore": 1,
@@ -180,6 +192,7 @@
     "id": "401872653",
     "date": "2026-05-23T23:00Z",
     "competition": "Liga BetPlay",
+    "stage": "Vuelta",
     "home": "Atlético Nacional",
     "away": "Deportes Tolima",
     "homeScore": 3,
@@ -203,6 +216,7 @@
     "id": "401871522",
     "date": "2026-05-12T23:20Z",
     "competition": "Liga BetPlay",
+    "stage": "Vuelta",
     "home": "Atlético Nacional",
     "away": "Internacional de Bogotá",
     "homeScore": 7,

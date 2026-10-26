@@ -5,6 +5,7 @@ export type Fixture = z.infer<typeof FixtureSchema>
 
 // Generado desde ESPN por scripts/sync-espn.mjs
 export const fixtures: Fixture[] = FixtureSchema.array().parse([
+  { id: '401878052', date: '2026-10-25T23:10Z', competition: 'Liga BetPlay', home: 'Atlético Nacional', away: 'Independiente Medellín', homeScore: 2, awayScore: 1, status: 'post', statusDetail: 'FT' },
   { id: '401877877', date: '2026-10-23T01:00Z', competition: 'Liga BetPlay', home: 'Atlético Nacional', away: 'Deportivo Pasto', homeScore: 3, awayScore: 0, status: 'post', statusDetail: 'FT' },
   { id: '401878021', date: '2026-10-20T23:30Z', competition: 'Liga BetPlay', home: 'Cúcuta Deportivo', away: 'Atlético Nacional', homeScore: 1, awayScore: 0, status: 'post', statusDetail: 'FT' },
   { id: '401877851', date: '2026-10-17T20:00Z', competition: 'Liga BetPlay', home: 'Boyacá Chicó FC', away: 'Atlético Nacional', homeScore: 1, awayScore: 4, status: 'post', statusDetail: 'FT' },
@@ -23,11 +24,11 @@ export const fixtures: Fixture[] = FixtureSchema.array().parse([
   { id: '401877990', date: '2026-08-02T20:45Z', competition: 'Liga BetPlay', home: 'Jaguares de Córdoba', away: 'Atlético Nacional', homeScore: 0, awayScore: 3, status: 'post', statusDetail: 'FT' },
   { id: '401871779', date: '2026-07-29T01:30Z', competition: 'Copa Colombia', stage: 'Vuelta', home: 'Tigres FC', away: 'Atlético Nacional', homeScore: 0, awayScore: 2, status: 'post', statusDetail: 'FT' },
   { id: '401871506', date: '2026-07-21T21:00Z', competition: 'Copa Colombia', stage: 'Ida', home: 'Atlético Nacional', away: 'Tigres FC', homeScore: 2, awayScore: 0, status: 'post', statusDetail: 'FT' },
-  { id: '401873659', date: '2026-06-08T22:00Z', competition: 'Liga BetPlay', home: 'Atlético Nacional', away: 'Atlético Junior', homeScore: 1, awayScore: 0, status: 'post', statusDetail: 'FT' },
+  { id: '401873659', date: '2026-06-08T22:00Z', competition: 'Liga BetPlay', stage: 'Vuelta', home: 'Atlético Nacional', away: 'Atlético Junior', homeScore: 1, awayScore: 0, status: 'post', statusDetail: 'FT' },
   { id: '401873658', date: '2026-06-03T00:30Z', competition: 'Liga BetPlay', stage: 'Ida', home: 'Atlético Junior', away: 'Atlético Nacional', homeScore: 3, awayScore: 0, status: 'post', statusDetail: 'FT' },
-  { id: '401872653', date: '2026-05-23T23:00Z', competition: 'Liga BetPlay', home: 'Atlético Nacional', away: 'Deportes Tolima', homeScore: 3, awayScore: 1, status: 'post', statusDetail: 'FT' },
+  { id: '401872653', date: '2026-05-23T23:00Z', competition: 'Liga BetPlay', stage: 'Vuelta', home: 'Atlético Nacional', away: 'Deportes Tolima', homeScore: 3, awayScore: 1, status: 'post', statusDetail: 'FT' },
   { id: '401872651', date: '2026-05-16T23:00Z', competition: 'Liga BetPlay', stage: 'Ida', home: 'Deportes Tolima', away: 'Atlético Nacional', homeScore: 0, awayScore: 1, status: 'post', statusDetail: 'FT' },
-  { id: '401871522', date: '2026-05-12T23:20Z', competition: 'Liga BetPlay', home: 'Atlético Nacional', away: 'Internacional de Bogotá', homeScore: 7, awayScore: 1, status: 'post', statusDetail: 'FT' },
+  { id: '401871522', date: '2026-05-12T23:20Z', competition: 'Liga BetPlay', stage: 'Vuelta', home: 'Atlético Nacional', away: 'Internacional de Bogotá', homeScore: 7, awayScore: 1, status: 'post', statusDetail: 'FT' },
   { id: '401871518', date: '2026-05-09T21:00Z', competition: 'Liga BetPlay', stage: 'Ida', home: 'Internacional de Bogotá', away: 'Atlético Nacional', homeScore: 1, awayScore: 2, status: 'post', statusDetail: 'FT' },
   { id: '401850892', date: '2026-05-01T23:00Z', competition: 'Liga BetPlay', home: 'Once Caldas', away: 'Atlético Nacional', homeScore: 1, awayScore: 0, status: 'post', statusDetail: 'FT' },
   { id: '401850884', date: '2026-04-25T21:00Z', competition: 'Liga BetPlay', home: 'Deportivo Pereira', away: 'Atlético Nacional', homeScore: 1, awayScore: 0, status: 'post', statusDetail: 'FT' },
