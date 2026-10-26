@@ -7,6 +7,7 @@ import { gallery } from './gallery'
 import { legends } from './legends'
 import attribution from './commons-attribution.json'
 import { allTimeScorers } from './scorers'
+import { fixtures, upcomingFixtures } from './fixtures'
 
 const fileExists = (publicPath: string) => existsSync(join(process.cwd(), 'public', publicPath.replace(/^\//, '')))
 
@@ -80,6 +81,39 @@ describe('integridad del archivo de datos', () => {
       expect(Number.isInteger(scorer.goals), scorer.name).toBe(true)
       expect(scorer.source, scorer.name).toMatch(/^https:\/\//)
       expect('trend' in scorer, `${scorer.name} no debe tener una tendencia inventada`).toBe(false)
+    }
+  })
+})
+
+describe('integridad de partidos', () => {
+  it('no repite ids entre resultados y próximos', () => {
+    const ids = [...fixtures, ...upcomingFixtures].map((match) => match.id)
+    expect(new Set(ids).size).toBe(ids.length)
+  })
+
+  it('cada resultado tiene sede y goles coherentes con el marcador', () => {
+    for (const match of fixtures) {
+      expect(match.venue, `${match.id} sin sede`).toBeTruthy()
+      const goals = match.goals ?? []
+      for (const goal of goals) {
+        expect(goal.minute.trim(), `${match.id}: minuto vacío`).not.toBe('')
+        expect(goal.player.trim(), `${match.id}: goleador vacío`).not.toBe('')
+      }
+      const home = goals.filter((goal) => goal.side === 'home').length
+      const away = goals.filter((goal) => goal.side === 'away').length
+      expect(home, `${match.id}: goles locales`).toBe(match.homeScore)
+      expect(away, `${match.id}: goles visitantes`).toBe(match.awayScore)
+    }
+  })
+
+  it('los próximos son hasta tres, ascendentes y sin marcador', () => {
+    expect(upcomingFixtures.length).toBeLessThanOrEqual(3)
+    for (const [index, match] of upcomingFixtures.entries()) {
+      expect(match.status, match.id).toBe('pre')
+      expect(match.homeScore, match.id).toBeNull()
+      expect(match.awayScore, match.id).toBeNull()
+      expect(match.venue, `${match.id} sin sede`).toBeTruthy()
+      if (index > 0) expect(match.date.localeCompare(upcomingFixtures[index - 1].date)).toBeGreaterThan(0)
     }
   })
 })

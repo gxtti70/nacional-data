@@ -45,6 +45,12 @@ const SEASONS_TS = join(ROOT, 'src/data/seasons.ts')
 const FIXTURES_TS = join(ROOT, 'src/data/fixtures.ts')
 const OVERRIDES_TS = join(ROOT, 'src/data/position-overrides.ts')
 
+// 365Scores: próximos partidos (ESPN no publica calendario futuro confiable).
+const SCORES_BASE = 'https://webws.365scores.com/web'
+const SCORES_TEAM_ID = 8640 // Atlético Nacional en 365Scores
+const SCORES_COMPETITIONS = { 620: 'Liga BetPlay', 616: 'Copa Colombia', 389: 'Sudamericana' }
+const SCORES_COMPETITIONS_QUERY = Object.keys(SCORES_COMPETITIONS).join(',')
+
 // Competencias que cuentan para los totales de la temporada.
 const COMPETITIONS = [
   { key: 'col.1', label: 'Liga BetPlay', goalsField: 'leagueGoals' },
@@ -106,19 +112,6 @@ const SeasonSchema = z.object({
 
 // ---------------------------------------------------------------- helpers
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
-
-const FIXTURE_FIELDS = {
-  id: z.string(),
-  date: z.string(),
-  competition: z.string(),
-  stage: z.string().optional(),
-  home: z.string(),
-  away: z.string(),
-  homeScore: z.number().nullable(),
-  awayScore: z.number().nullable(),
-  status: z.string(),
-  statusDetail: z.string(),
-}
 
 async function fetchRaw(url, retries = 3) {
   let lastErr
@@ -365,28 +358,49 @@ async function loadFixtures() {
   return [...byId.values()].sort((a, b) => b.date.localeCompare(a.date))
 }
 
-function writeFixtures(fixtures) {
-  const q = (s) => `'${String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'")}'`
-  const lines = fixtures.map((f) => {
-    const stage = f.stage ? `, stage: ${q(f.stage)}` : ''
-    return `  { id: ${q(f.id)}, date: ${q(f.date)}, competition: ${q(f.competition)}${stage}, home: ${q(f.home)}, away: ${q(f.away)}, homeScore: ${f.homeScore ?? 'null'}, awayScore: ${f.awayScore ?? 'null'}, status: ${q(f.status)}, statusDetail: ${q(f.statusDetail)} },`
-  })
-  writeFileSync(
-    FIXTURES_TS,
-    `import { z } from 'zod'\n\nexport const FixtureSchema = z.object({ id: z.string(), date: z.string(), competition: z.string(), stage: z.string().optional(), home: z.string(), away: z.string(), homeScore: z.number().nullable(), awayScore: z.number().nullable(), status: z.string(), statusDetail: z.string() })\nexport type Fixture = z.infer<typeof FixtureSchema>\n\n// Generado desde ESPN por scripts/sync-espn.mjs\nexport const fixtures: Fixture[] = FixtureSchema.array().parse([\n${lines.join('\n')}\n])\n`,
-  )
-  console.log(`✔ ${FIXTURES_TS} actualizado (${fixtures.length} partidos)`)
+const q = (s) => `'${String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'")}'`
+
+const goalToSource = (goal) =>
+  `{ minute: ${q(goal.minute)}, player: ${q(goal.player)}, side: ${q(goal.side)}${goal.ownGoal ? ', ownGoal: true' : ''}${goal.penalty ? ', penalty: true' : ''} }`
+
+function fixtureToSource(f, details) {
+  const stage = f.stage ? `, stage: ${q(f.stage)}` : ''
+  const detail = details?.get(f.id)
+  const venue = f.venue ?? detail?.venue
+  const city = f.city ?? detail?.city
+  const goals = f.goals ?? detail?.goals
+  const extra =
+    (venue ? `, venue: ${q(venue)}` : '') +
+    (city ? `, city: ${q(city)}` : '') +
+    (goals?.length ? `, goals: [${goals.map(goalToSource).join(', ')}]` : '')
+  return `  { id: ${q(f.id)}, date: ${q(f.date)}, competition: ${q(f.competition)}${stage}, home: ${q(f.home)}, away: ${q(f.away)}, homeScore: ${f.homeScore ?? 'null'}, awayScore: ${f.awayScore ?? 'null'}, status: ${q(f.status)}, statusDetail: ${q(f.statusDetail)}${extra} },`
 }
 
-if (FIXTURES_ONLY) {
-  const fixtures = await loadFixtures()
-  if (!fixtures.length) throw new Error('ESPN no devolvió partidos para este equipo. Revisa el caché o reintenta con --refresh.')
-  if (DRY) {
-    console.log(`[dry-run] ${fixtures.length} partidos (${COMPETITIONS.map((c) => c.label).join(', ')})`)
-    process.exit(0)
-  }
-  writeFixtures(fixtures)
-  process.exit(0)
+function writeFixtures(fixtures, details = new Map(), upcoming = []) {
+  const lines = fixtures.map((f) => fixtureToSource(f, details))
+  const upcomingLines = upcoming.map((f) => fixtureToSource(f, details))
+  writeFileSync(
+    FIXTURES_TS,
+    `import { z } from 'zod'
+
+export const GoalSchema = z.object({ minute: z.string(), player: z.string(), side: z.enum(['home', 'away']), ownGoal: z.boolean().optional(), penalty: z.boolean().optional() })
+export type Goal = z.infer<typeof GoalSchema>
+
+export const FixtureSchema = z.object({ id: z.string(), date: z.string(), competition: z.string(), stage: z.string().optional(), home: z.string(), away: z.string(), homeScore: z.number().nullable(), awayScore: z.number().nullable(), status: z.string(), statusDetail: z.string(), venue: z.string().optional(), city: z.string().optional(), goals: GoalSchema.array().optional() })
+export type Fixture = z.infer<typeof FixtureSchema>
+
+// Generado desde ESPN y 365Scores por scripts/sync-espn.mjs
+export const fixtures: Fixture[] = FixtureSchema.array().parse([
+${lines.join('\n')}
+])
+
+// Próximos partidos (máximo 3, orden ascendente). Fuente: 365Scores.
+export const upcomingFixtures: Fixture[] = FixtureSchema.array().parse([
+${upcomingLines.join('\n')}
+])
+`,
+  )
+  console.log(`✔ ${FIXTURES_TS} actualizado (${fixtures.length} partidos, ${upcoming.length} próximos)`)
 }
 
 // ---------------------------------------------------------------- goles y asistencias
@@ -499,6 +513,167 @@ async function aggregateCompetitions(fixtures, existingByNorm, existingByEspnId)
   }
 
   return { resolved, others: [...others.values()].sort((a, b) => b.goals - a.goals || a.name.localeCompare(b.name)), events, warnings }
+}
+
+// ---------------------------------------------------------------- detalle ESPN (sede y goles)
+// Empareja los equipos del resumen con el local/visitante del calendario. El
+// resumen suele respetar el orden, pero si viene invertido el mapeo lo corrige.
+function summarySides(summary, fixture) {
+  const competitors = summary.header?.competitions?.[0]?.competitors ?? []
+  const home = competitors.find((team) => team.homeAway === 'home')
+  const away = competitors.find((team) => team.homeAway === 'away')
+  const headerHomeId = String(home?.team?.id ?? '')
+  const headerHomeName = home?.team?.displayName ?? home?.team?.name ?? ''
+  const sameOrder = normalizeName(headerHomeName) === normalizeName(fixture.home)
+  return (teamId) => (String(teamId) === headerHomeId ? (sameOrder ? 'home' : 'away') : sameOrder ? 'away' : 'home')
+}
+
+// Todos los goles del partido (ambos equipos), ordenados por minuto.
+function parseMatchGoals(summary, fixture) {
+  const sideFor = summarySides(summary, fixture)
+  return (summary.keyEvents ?? [])
+    .filter((event) => event.scoringPlay === true && !event.shootout)
+    .sort((a, b) => Number(a.clock?.value ?? 0) - Number(b.clock?.value ?? 0))
+    .map((event) => {
+      const player = event.participants?.[0]?.athlete?.displayName
+      const minute = event.clock?.displayValue
+      if (!player || !minute) {
+        throw new Error(`Gol incompleto en ${fixture.id}: ${JSON.stringify({ player, minute, text: event.text })}`)
+      }
+      const type = String(event.type?.text ?? '')
+      const goal = { minute, player, side: sideFor(event.team?.id) }
+      if (event.ownGoal || /own goal/i.test(type)) goal.ownGoal = true
+      if (event.penalty || /penalty/i.test(type)) goal.penalty = true
+      return goal
+    })
+}
+
+// Lee (o descarga) el resumen de cada partido terminado y extrae sede y goles.
+// Valida que los goles de cada lado coincidan con el marcador antes de escribir.
+async function enrichFixtures(fixtures) {
+  const details = new Map()
+  const warnings = []
+  for (const fixture of fixtures) {
+    if (fixture.status !== 'post') continue
+    const summaryFile = join(SUMMARY_CACHE_DIR, `summary-${fixture.id}.json`)
+    const summary = await fetchCached(SUMMARY_URL(fixture.leagueKey, fixture.id), summaryFile)
+    const goals = parseMatchGoals(summary, fixture)
+    const homeGoals = goals.filter((goal) => goal.side === 'home').length
+    const awayGoals = goals.length - homeGoals
+    if (!Number.isFinite(fixture.homeScore) || !Number.isFinite(fixture.awayScore)) {
+      throw new Error(`Partido ${fixture.id} sin marcador; no se pueden validar los goles (${summaryFile}).`)
+    }
+    if (homeGoals !== fixture.homeScore || awayGoals !== fixture.awayScore) {
+      throw new Error(
+        `Inconsistencia en ${fixture.id}: goles local/visitante=${homeGoals}/${awayGoals}, ` +
+          `marcador=${fixture.homeScore}/${fixture.awayScore}. Revisa ${summaryFile} o ejecuta con --refresh.`,
+      )
+    }
+    const venue = short(summary.gameInfo?.venue?.fullName)
+    const city = short(summary.gameInfo?.venue?.address?.city)
+    if (!venue) warnings.push(`${fixture.id}: el resumen no reporta sede`)
+    details.set(fixture.id, { venue: venue || undefined, city: city || undefined, goals })
+  }
+  return { details, warnings }
+}
+
+// ---------------------------------------------------------------- próximos (365Scores)
+const bogotaDay = (date) =>
+  new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Bogota', year: 'numeric', month: '2-digit', day: '2-digit' }).format(date)
+
+async function fetch365(path, retries = 3) {
+  const url = `${SCORES_BASE}/${path}`
+  let lastErr
+  for (let i = 0; i < retries; i++) {
+    try {
+      const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 (compatible; nacional-portal-sync/1.0)' } })
+      if (!res.ok) throw new Error(`HTTP ${res.status} para ${url}`)
+      return await res.json()
+    } catch (err) {
+      lastErr = err
+      if (i < retries - 1) await sleep(1500 * (i + 1))
+    }
+  }
+  throw lastErr
+}
+
+function scoresCompetition(game) {
+  return (
+    SCORES_COMPETITIONS[game.competitionId] ??
+    String(game.competitionDisplayName ?? '')
+      .replace(/^Colombia,\s*/i, '')
+      .replace(/\s*-\s*(Apertura|Clausura)\s*$/i, '')
+  )
+}
+
+// En liga el semestre ya lo expresa el filtro (Apertura/Clausura); en copas y
+// torneos continentales sí se conserva la fase que reporta 365Scores.
+function scoresStage(game) {
+  if (Number(game.competitionId) === 620) return undefined
+  const stage = short(game.stageName)
+  return stage && !/^(apertura|clausura)$/i.test(stage) ? stage : undefined
+}
+
+async function loadUpcoming(limit = 3) {
+  const today = new Date()
+  const end = new Date(today.getTime() + 150 * 24 * 60 * 60 * 1000)
+  const params = new URLSearchParams({
+    appTypeId: '5',
+    langId: '29',
+    timezoneName: 'America/Bogota',
+    startDate: bogotaDay(today),
+    endDate: bogotaDay(end),
+    competitions: SCORES_COMPETITIONS_QUERY,
+  })
+  const data = await fetch365(`games/fixtures/?${params}`)
+  const games = (data.games ?? [])
+    .filter(
+      (game) =>
+        String(game.homeCompetitor?.id) === String(SCORES_TEAM_ID) || String(game.awayCompetitor?.id) === String(SCORES_TEAM_ID),
+    )
+    .filter((game) => Number(game.statusGroup) === 2)
+    .filter((game) => !/final|finalizado|\bft\b|aplaz|cancel|suspend/i.test(`${game.statusText ?? ''} ${game.shortStatusText ?? ''}`))
+    .filter((game) => Number.isFinite(new Date(game.startTime).getTime()))
+    .sort((a, b) => new Date(a.startTime) - new Date(b.startTime))
+    .slice(0, limit)
+
+  const upcoming = []
+  for (const game of games) {
+    const detail = await fetch365(`game/?appTypeId=5&langId=29&timezoneName=America/Bogota&gameId=${game.id}`)
+    const venue = short(detail.game?.venue?.name)
+    if (!venue) console.warn(`⚠ 365Scores no reportó sede para el partido ${game.id}`)
+    upcoming.push({
+      id: String(game.id),
+      date: new Date(game.startTime).toISOString().replace(/\.\d{3}Z$/, 'Z'),
+      competition: scoresCompetition(game),
+      stage: scoresStage(game),
+      home: game.homeCompetitor?.name ?? 'Por definir',
+      away: game.awayCompetitor?.name ?? 'Por definir',
+      homeScore: null,
+      awayScore: null,
+      status: 'pre',
+      statusDetail: short(game.shortStatusText) || 'Programado',
+      venue: venue || undefined,
+    })
+    await sleep(250)
+  }
+  return upcoming
+}
+
+if (FIXTURES_ONLY) {
+  const fixtures = await loadFixtures()
+  if (!fixtures.length) throw new Error('ESPN no devolvió partidos para este equipo. Revisa el caché o reintenta con --refresh.')
+  const enriched = await enrichFixtures(fixtures)
+  for (const warning of enriched.warnings) console.warn(`⚠ ${warning}`)
+  const upcoming = await loadUpcoming()
+  if (DRY) {
+    console.log(
+      `[dry-run] ${fixtures.length} partidos (${COMPETITIONS.map((c) => c.label).join(', ')}), ${upcoming.length} próximos`,
+    )
+    process.exit(0)
+  }
+  writeFixtures(fixtures, enriched.details, upcoming)
+  process.exit(0)
 }
 
 // ---------------------------------------------------------------- flujo principal
@@ -700,7 +875,6 @@ const newSeason = SeasonSchema.parse({
 })
 
 // ---------------------------------------------------------------- escribir players.ts
-const q = (s) => `'${String(s).replace(/\\/g, '\\\\').replace(/'/g, "\\'")}'`
 const playerLines = parsedPlayers.map(
   (p) =>
     `  { slug: ${q(p.slug)}, name: ${q(p.name)}, number: ${p.number}, position: ${q(p.position)}, birthDate: ${q(p.birthDate)}, nationality: ${q(p.nationality)}${p.espnId ? `, espnId: ${q(p.espnId)}` : ''}${p.photo ? `, photo: ${q(p.photo)}` : ''}${p.credit ? `, credit: ${q(p.credit)}` : ''} },`,
@@ -746,5 +920,8 @@ writeFileSync(SEASONS_TS, seasonsSrc)
 console.log(`✔ ${SEASONS_TS} actualizado (temporada ${newSeason.id}: ${statEntries.length} jugadores, ${others.length} otros)`)
 
 // ---------------------------------------------------------------- escribir fixtures.ts
-writeFixtures(fixtures)
+const enrichedFixtures = await enrichFixtures(fixtures)
+for (const warning of enrichedFixtures.warnings) console.warn(`⚠ ${warning}`)
+const upcoming = await loadUpcoming()
+writeFixtures(fixtures, enrichedFixtures.details, upcoming)
 console.log('\nListo. Verifica con: npm test && npx tsc --noEmit && npm run build')
